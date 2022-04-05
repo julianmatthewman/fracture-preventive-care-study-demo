@@ -1,6 +1,9 @@
 
 # Demo analysis pipeline and report using dummy data
 
+View report [here](<report.html>)
+
+
 ## How to run
 
 1.  Open the R console and call `renv::restore()` to install the
