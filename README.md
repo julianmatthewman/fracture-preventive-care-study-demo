@@ -1,7 +1,7 @@
 
 # Demo analysis pipeline and report using dummy data
 
-View report `here`(<report.html>)
+View report [here](<report.html>)
 
 
 ## How to run
