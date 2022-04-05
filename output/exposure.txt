@@ -1,0 +1,6 @@
+pattern
+cumdays
+pattern_rt_gap
+pattern_lagged
+pattern_itt
+cumdose

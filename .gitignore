@@ -1,0 +1,17 @@
+.DS_Store
+**/.DS_Store
+.Rproj.user
+.Rhistory
+*.dta
+*.csv
+_targets/
+.future/
+dummy_data/
+
+
+
+!dict.csv
+!ped_reference.csv
+!output/*.csv
+!input/*.csv
+!codelists/*.csv

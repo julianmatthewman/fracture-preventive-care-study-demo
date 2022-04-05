@@ -1,0 +1,127 @@
+oldnames,newnames
+Follow_up_time,Follow-up time
+med_futime,Median follow up time
+male,Male sex
+age_median,Median age
+age_IQR_lower,Age lower IQR
+age_IQR_upper,Age upper IQR
+age_cat18 - 29,Age 18 - 29
+age_cat30 - 39,Age 30 - 39
+age_cat40 - 49,Age 40 - 49
+age_cat50 - 65,Age 50 - 65
+age_cat66+,Age 66+
+sex1,Male sex
+sex2,Female sex
+bmi_catnormal,BMI Normal (18.5-25 kg/m2)
+bmi_catunderweight,BMI Underweight (<18.5 kg/m2)
+bmi_catoverweight,BMI Overweight (25-30 kg/m2)
+bmi_catobese,BMI Obese (>30kg/m2)
+bmi_catNA,BMI missing
+smokstatus0,Non-smoker
+smokstatus12,Current/Ex-Smoker
+smokstatus1,Current smoker
+smokstatus2,Ex-smoker
+smokstatusNA,Smoking missing
+imd_composite1,IMD 1st quintile
+imd_composite2,IMD 2nd quintile
+imd_composite3,IMD 3rd quintile
+imd_composite4,IMD 4th quintile
+imd_composite5,IMD 5th quintile
+asthma0,No asthma
+asthma1,Asthma
+severity0,Mild severity
+severity1,Moderate severity
+severity2,Severe severity
+high0,Never high dose steroids
+high1,Ever high dose steroids
+gc1,Ever steroids
+alc0,No harmful alcohol use
+alc1,Harmful alcohol use
+fract_any0,No any fracture
+fract_any1,Any fracture
+fract_hip0,No hip fracture
+fract_hip1,Hip fracture
+bisphosphonate0,No bisphosphonates
+bisphosphonate1,Bisphosphonates
+fract_any_evernever,Never any fracture
+fract_any_everever,Ever any fracture
+fract_hip_evernever,Never hip fracture
+fract_hip_everever,Ever hip fracture
+bisphosphonate_evernever,Never bisphosphonates
+bisphosphonate_everever,Ever bisphosphonates
+cumdose450 to 899 mg,Cumulative steroid dose 450 to 899 mg
+cumdose900 to 1500 mg,Cumulative steroid dose 900 to 1500 mg	
+cumdose>1500 mg,Cumulative steroid dose >1500 mg
+cumdose0,Cumulative steroid dose 0g
+cumdose0.1 to 0.9 g,Cumulative steroid dose 0.1 to 0.9g
+cumdose1 to 2.4 g,Cumulative steroid dose 1 to 2.4g
+cumdose2.5 to 4.9 g,Cumulative steroid dose 2.5 to 4.9g
+cumdose5 to 7.4 g,Cumulative steroid dose 5 to 7.4g
+cumdose7.5 to 10 g,Cumulative steroid dose 7.5 to 10g
+cumdose>10 g,Cumulative steroid dose >10g
+patternintermittent,Intermittent steroid use
+patterncontinuous,Continuous steroid use
+pattern_laggedintermittent,Intermittent steroid use (pattern_lagged)
+pattern_laggedcontinuous,Continuous steroid use (pattern_lagged)
+pattern_ittintermittent,Intermittent steroid use (pattern_itt)
+pattern_ittcontinuous,Continuous steroid use (pattern_itt)
+eth50,White
+eth51,South Asian
+eth52,Black
+eth53,Other
+eth54,Mixed
+eth55,Not Stated
+eth5NA,Ethnicity missing
+carstairs1,Lowest income quintile
+carstairs2,Next to lowest income quintile
+carstairs3,Middle income quintile
+carstairs4,Next to highest income quintile
+carstairs5,Highest income quintile
+carstairsNA, Income quintile missing
+copd0,No COPD
+copd1,COPD
+rheumatoid_arthritis0,No rheumatoid arthritis
+rheumatoid_arthritis1,Rheumatoid arthritis
+non_steroid_fx_drugs0,Never taken other drugs that increase fracture risk
+non_steroid_fx_drugs1,Ever taken other drugs that increase fracture risk
+timegroup1997-2005,Timegroup 1997-2005
+timegroup2006-20012,Timegroup 2006-2012
+timegroup2006-2012,Timegroup 2006-2012
+timegroup2013-2020,Timegroup 2013-2020
+agegroup66-79,Agegroup 66-79
+agegroup80+,Agegroup 80+
+cumdaysfew,Cumulative days with steroid <90
+cumdaysmany,Cumulative days with steroid >=90
+dementia0,No Dementia
+dementia1,Dementia
+parkinsons0,No Parkinsons
+parkinsons1,Parkinsons
+family_general_medicine0,Not prescribed steroids by GP
+family_general_medicine1,Prescribed steroids by GP
+dermatology0,Not prescribed steroids by dermatologist
+dermatology1,Presribed steroids by dermatologist
+emergency_medicine0,Not prescribed steroids in emergency medicine
+emergency_medicine1,Prescribed steroids in emergency medicine
+other_speciality0,Not prescribed steroids by other specialty
+other_speciality1,Prescribed steroids by other specialty
+physician_visits0-12,0-12 physician vists in past year
+physician_visits13-21,13-21 phsician vists in past year
+physician_visits22+,22+ physician vists in past year
+hospitalizations0,No hospitalisations in past year
+hospitalizations1,AT least 1 hospitalisation in past year
+meds_decrease_fract0,Never taken other drugs that decrease fracture risk
+meds_decrease_fract1,Ever taken other drugs that decrease fracture risk
+meds_increase_fract0,Never taken other drugs that increase fracture risk
+meds_increase_fract1,Ever taken other drugs that increase fracture risk
+cs_inhaled_nasal0,No inhaled steroids in past year
+cs_inhaled_nasal1,Inhaled steroids in past year
+cs_inj0,No injectable steroids in past year
+cs_inj1,Injectable steroids in past year
+cs_topical0,No topical steroids in past year
+cs_topical1,Topical steroids in past year
+cs_other0,No other steroids in past year
+cs_other1,Other steroids in past year
+ocs_claim_year_prior0,No oral steroids in past year
+ocs_claim_year_prior1,Oral steroids in past year
+age_mean, Mean age
+age_mean_sd, Mean age (Standard deviation)

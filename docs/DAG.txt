@@ -1,0 +1,43 @@
+dag {
+"Fracture preventive care" [outcome,pos="1.090,0.303"]
+"Prescription pattern" [exposure,pos="-1,0.286"]
+"cumulative steroid dose" [pos="-0.128,0.494"]
+"eczema severity" [pos="-0.532,-1.016"]
+"meds that affect fracture risk" [pos="0.298,0.669"]
+"topical steroids" [pos="-0.507,0.627"]
+BMI [pos="0.360,-1.324"]
+COPD [pos="-0.371,-1.299"]
+RA [pos="-0.1,-1.020"]
+age [pos="-1.043,-0.841"]
+alcohol [pos="0.528,-1.095"]
+ashtma [pos="-0.610,-1.253"]
+dementia [pos="1.258,-0.496"]
+deprivation [pos="-1.231,-0.941"]
+ethnicity [pos="1.323,-1.045"]
+sex [pos="-1.079,-1.107"]
+smoking [pos="0.263,-1.049"]
+"Prescription pattern" -> "Fracture preventive care"
+"eczema severity" -> "Fracture preventive care"
+"eczema severity" -> "Prescription pattern"
+BMI -> "Fracture preventive care"
+BMI -> "Prescription pattern"
+COPD -> "Fracture preventive care"
+COPD -> "Prescription pattern"
+RA -> "Fracture preventive care"
+RA -> "Prescription pattern"
+age -> "Fracture preventive care"
+age -> "Prescription pattern"
+alcohol -> "Fracture preventive care"
+alcohol -> "Prescription pattern"
+ashtma -> "Fracture preventive care"
+ashtma -> "Prescription pattern"
+dementia -> "Fracture preventive care"
+deprivation -> "Fracture preventive care"
+deprivation -> "Prescription pattern"
+ethnicity -> "Fracture preventive care"
+ethnicity -> "Prescription pattern"
+sex -> "Fracture preventive care"
+sex -> "Prescription pattern"
+smoking -> "Fracture preventive care"
+smoking -> "Prescription pattern"
+}

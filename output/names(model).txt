@@ -1,0 +1,6 @@
+crude
+adjusted_comorb
+adjusted_comorb_severity
+adjusted_age_sex_carstairs
+adjusted_comorb_lifestyle
+adjusted_comorb_cumdose

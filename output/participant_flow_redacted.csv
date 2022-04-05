@@ -1,0 +1,91 @@
+n,pyrs,step,outcome,analysis
+10000,65009.475701574265,Eczema cohort,bisphosphonate,main
+4476,23354.420260095823,Ever cross risk-threshold,bisphosphonate,main
+1074,5433.234770704997,Excluded individuals aged <66,bisphosphonate,main
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,bisphosphonate,main
+925,4626.49144421629,Restricted to first occurence of outcome,bisphosphonate,main
+925,894.5352498288843,From crossing the risk threshold to a maximum of one year thereafter,bisphosphonate,main
+10000,65009.475701574265,Eczema cohort,bisphosphonate,sens_all_follow_up
+4476,23354.420260095823,Ever cross risk-threshold,bisphosphonate,sens_all_follow_up
+1074,5433.234770704997,Excluded individuals aged <66,bisphosphonate,sens_all_follow_up
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,bisphosphonate,sens_all_follow_up
+925,4626.49144421629,Restricted to first occurence of outcome,bisphosphonate,sens_all_follow_up
+925,4626.49144421629,From crossing the risk threshold to a maximum of one year thereafter,bisphosphonate,sens_all_follow_up
+10000,65009.475701574265,Eczema cohort,bisphosphonate,sens_shorter_windows
+4476,23354.420260095823,Ever cross risk-threshold,bisphosphonate,sens_shorter_windows
+1074,5433.234770704997,Excluded individuals aged <66,bisphosphonate,sens_shorter_windows
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,bisphosphonate,sens_shorter_windows
+925,4626.49144421629,Restricted to first occurence of outcome,bisphosphonate,sens_shorter_windows
+925,452.7364818617385,From crossing the risk threshold to a maximum of one year thereafter,bisphosphonate,sens_shorter_windows
+10000,65009.475701574265,Eczema cohort,bisphosphonate,sens_no_asthma
+4476,23354.420260095823,Ever cross risk-threshold,bisphosphonate,sens_no_asthma
+1074,5433.234770704997,Excluded individuals aged <66,bisphosphonate,sens_no_asthma
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,bisphosphonate,sens_no_asthma
+925,4626.49144421629,Restricted to first occurence of outcome,bisphosphonate,sens_no_asthma
+921,890.5927446954141,From crossing the risk threshold to a maximum of one year thereafter,bisphosphonate,sens_no_asthma
+10000,65009.475701574265,Eczema cohort,bisphosphonate,sens_all_ages
+4476,23354.420260095823,Ever cross risk-threshold,bisphosphonate,sens_all_ages
+4476,23354.420260095823,Excluded individuals aged <66,bisphosphonate,sens_all_ages
+3943,20641.160848733743,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,bisphosphonate,sens_all_ages
+3943,20086.03422313484,Restricted to first occurence of outcome,bisphosphonate,sens_all_ages
+3943,3817.801505817933,From crossing the risk threshold to a maximum of one year thereafter,bisphosphonate,sens_all_ages
+10000,65009.475701574265,Eczema cohort,fract_composite,main
+4476,23354.420260095823,Ever cross risk-threshold,fract_composite,main
+1074,5433.234770704997,Excluded individuals aged <66,fract_composite,main
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,fract_composite,main
+925,4718.105407255304,Restricted to first occurence of outcome,fract_composite,main
+925,895.7234770704997,From crossing the risk threshold to a maximum of one year thereafter,fract_composite,main
+10000,65009.475701574265,Eczema cohort,fract_composite,sens_all_follow_up
+4476,23354.420260095823,Ever cross risk-threshold,fract_composite,sens_all_follow_up
+1074,5433.234770704997,Excluded individuals aged <66,fract_composite,sens_all_follow_up
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,fract_composite,sens_all_follow_up
+925,4718.105407255304,Restricted to first occurence of outcome,fract_composite,sens_all_follow_up
+925,4718.105407255304,From crossing the risk threshold to a maximum of one year thereafter,fract_composite,sens_all_follow_up
+10000,65009.475701574265,Eczema cohort,fract_composite,sens_shorter_windows
+4476,23354.420260095823,Ever cross risk-threshold,fract_composite,sens_shorter_windows
+1074,5433.234770704997,Excluded individuals aged <66,fract_composite,sens_shorter_windows
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,fract_composite,sens_shorter_windows
+925,4718.105407255304,Restricted to first occurence of outcome,fract_composite,sens_shorter_windows
+925,452.9281314168378,From crossing the risk threshold to a maximum of one year thereafter,fract_composite,sens_shorter_windows
+10000,65009.475701574265,Eczema cohort,fract_composite,sens_no_asthma
+4476,23354.420260095823,Ever cross risk-threshold,fract_composite,sens_no_asthma
+1074,5433.234770704997,Excluded individuals aged <66,fract_composite,sens_no_asthma
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,fract_composite,sens_no_asthma
+925,4718.105407255304,Restricted to first occurence of outcome,fract_composite,sens_no_asthma
+921,891.7809719370294,From crossing the risk threshold to a maximum of one year thereafter,fract_composite,sens_no_asthma
+10000,65009.475701574265,Eczema cohort,fract_composite,sens_all_ages
+4476,23354.420260095823,Ever cross risk-threshold,fract_composite,sens_all_ages
+4476,23354.420260095823,Excluded individuals aged <66,fract_composite,sens_all_ages
+3943,20641.160848733743,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,fract_composite,sens_all_ages
+3943,20577.74674880219,Restricted to first occurence of outcome,fract_composite,sens_all_ages
+3943,3832.3860369609856,From crossing the risk threshold to a maximum of one year thereafter,fract_composite,sens_all_ages
+10000,65009.475701574265,Eczema cohort,calcium_and_vit_d,main
+4476,23354.420260095823,Ever cross risk-threshold,calcium_and_vit_d,main
+1074,5433.234770704997,Excluded individuals aged <66,calcium_and_vit_d,main
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,calcium_and_vit_d,main
+925,4703.611225188227,Restricted to first occurence of outcome,calcium_and_vit_d,main
+925,895.006160164271,From crossing the risk threshold to a maximum of one year thereafter,calcium_and_vit_d,main
+10000,65009.475701574265,Eczema cohort,calcium_and_vit_d,sens_all_follow_up
+4476,23354.420260095823,Ever cross risk-threshold,calcium_and_vit_d,sens_all_follow_up
+1074,5433.234770704997,Excluded individuals aged <66,calcium_and_vit_d,sens_all_follow_up
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,calcium_and_vit_d,sens_all_follow_up
+925,4703.611225188227,Restricted to first occurence of outcome,calcium_and_vit_d,sens_all_follow_up
+925,4703.611225188227,From crossing the risk threshold to a maximum of one year thereafter,calcium_and_vit_d,sens_all_follow_up
+10000,65009.475701574265,Eczema cohort,calcium_and_vit_d,sens_shorter_windows
+4476,23354.420260095823,Ever cross risk-threshold,calcium_and_vit_d,sens_shorter_windows
+1074,5433.234770704997,Excluded individuals aged <66,calcium_and_vit_d,sens_shorter_windows
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,calcium_and_vit_d,sens_shorter_windows
+925,4703.611225188227,Restricted to first occurence of outcome,calcium_and_vit_d,sens_shorter_windows
+925,452.6762491444216,From crossing the risk threshold to a maximum of one year thereafter,calcium_and_vit_d,sens_shorter_windows
+10000,65009.475701574265,Eczema cohort,calcium_and_vit_d,sens_no_asthma
+4476,23354.420260095823,Ever cross risk-threshold,calcium_and_vit_d,sens_no_asthma
+1074,5433.234770704997,Excluded individuals aged <66,calcium_and_vit_d,sens_no_asthma
+925,4726.850102669405,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,calcium_and_vit_d,sens_no_asthma
+925,4703.611225188227,Restricted to first occurence of outcome,calcium_and_vit_d,sens_no_asthma
+921,891.0636550308009,From crossing the risk threshold to a maximum of one year thereafter,calcium_and_vit_d,sens_no_asthma
+10000,65009.475701574265,Eczema cohort,calcium_and_vit_d,sens_all_ages
+4476,23354.420260095823,Ever cross risk-threshold,calcium_and_vit_d,sens_all_ages
+4476,23354.420260095823,Excluded individuals aged <66,calcium_and_vit_d,sens_all_ages
+3943,20641.160848733743,Excluded individuals with previous major osteoporotic fracture or bisphosphonate prescription,calcium_and_vit_d,sens_all_ages
+3943,20573.83436002738,Restricted to first occurence of outcome,calcium_and_vit_d,sens_all_ages
+3943,3830.795345653662,From crossing the risk threshold to a maximum of one year thereafter,calcium_and_vit_d,sens_all_ages

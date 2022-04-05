@@ -1,0 +1,811 @@
+---
+title: "Demo Report"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_collapsed: no
+    number_sections: yes
+    code_folding: hide
+---
+
+```{r}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+```{r include=FALSE}
+library(targets)
+library(gt)
+library(gtsummary)
+library(kableExtra)
+library(tidyverse)
+library(DT)
+library(dagitty)
+library(ggdag)
+library(DiagrammeR)
+library(tidyverse)
+```
+
+```{r include=FALSE}
+# Source all functions from the "R" folder
+sapply(list.files("R", full.names = TRUE) ,source, .GlobalEnv)
+
+#Read all input specifications
+exposure <- read_lines("output/exposure.txt")
+outcome <- read_lines("output/outcome.txt")
+analysis <- read_lines("output/analysis.txt")
+model <- read_lines("output/model.txt")
+names(model) <- read_lines("output/names(model).txt")
+dict <- read_csv("dict.csv")
+
+#Read all output files
+participant_flow <- read_csv("output/participant_flow_redacted.csv") %>% mutate(country="UK")
+baseline_characteristics_cohort_eczema <- read_csv("output/baseline_characteristics_cohort_eczema_redacted.csv") %>% mutate(country="UK")
+baseline_characteristics_cohort_steroids <- read_csv("output/baseline_characteristics_cohort_steroids_redacted.csv") %>% mutate(country="UK")
+exposed_counts <- read_csv("output/exposed_counts_redacted.csv") %>% mutate(country="UK")
+results_regression <- read_csv("output/results_regression_redacted.csv") %>% mutate(country="UK")
+results_rates <- read_csv("output/results_rates_redacted.csv") %>% mutate(country="UK")
+```
+
+```{r include=FALSE}
+#Read all files in the input folder
+filepaths <- list.files(path="dummy_input", full.names = TRUE)
+filenames <- tools::file_path_sans_ext(basename(filepaths))
+for(i in seq_along(filenames)){
+    assign(filenames[i], read_csv(filepaths[i]))
+}
+
+canada_baseline_characteristics_steroids <- canada_baseline_characteristics_steroids %>% mutate(country="Canada")
+canada_participant_flow <- canada_participant_flow %>% mutate(country="Canada")
+canada_results_regression <- canada_results_regression %>% mutate(country="Canada")
+canada_results_rates <- canada_results_rates %>% mutate(country="Canada")
+```
+
+```{r}
+#To include report in pipeline, load targets directly rather than from files
+# tar_load(c(participant_flow_redacted,
+# 				 baseline_characteristics_cohort_eczema_redacted,
+# 				 baseline_characteristics_cohort_steroids_redacted,
+# 				 exposed_counts_redacted,
+# 				 results_regression_redacted,
+# 				 results_interaction_redacted,
+# 				 results_rates_redacted,
+# 				 exposure,
+# 				 outcome,
+# 				 analysis,
+# 				 model))
+# 
+# participant_flow <- participant_flow_redacted
+# baseline_characteristics_cohort_eczema <- baseline_characteristics_cohort_eczema_redacted
+# baseline_characteristics_cohort_steroids <- baseline_characteristics_cohort_steroids_redacted
+# exposed_counts <- exposed_counts_redacted
+# results_regression <- results_regression_redacted
+# results_interaction <- results_interaction_redacted
+# results_rates <- results_rates_redacted
+```
+
+# Background & Methods
+
+## Background
+
+People with atopic eczema are prescribed oral corticosteroids (OCS) in different patterns (e.g., continuously or intermittently). We hypothesise that people given intermittent courses of OCSs are less likely to receive adequate fracture preventive care than people receiving the same cumulative corticosteroid dose continuously.
+
+## Objectives
+
+1.  **Describe OCS use in people with atopic eczema** (including people receiving and not receiving high cumulative doses) in terms of: cumulative dose, average dose, and prescribing pattern (continuous or intermittent).
+
+2.  Describe the **association between OCS prescribing patterns** (continuous versus intermittent) **and rates of fracture preventive care** in people with atopic eczema receiving high cumulative doses of OCS.
+
+3.  Describe the **association between OCS prescribing patterns** (intermittent versus continuous) **and subsequent major osteoporotic fracture risk** in people with atopic eczema receiving high cumulative doses of OCS.
+
+## Graphical depiction of study design {.tabset}
+
+### without prescriptions {.tabset}
+
+#### pattern
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-main.drawio.svg)
+
+**Eligible:** latest of: atopic eczema diagnosis algorithm met, 18th birthday, study start date (January 2nd 1998), date their practice met CPRD quality-control standards, or practice registration date plus one year.
+
+**Start of follow up:** cumulative dose of OCS prescribed within a six-month window (Inclusion assessment window=6 month window) crosses a predefined risk threshold of 450mg prednisolone equivalent dose (PED).
+
+**Censor:** earliest of: date of outcome, one year after index date, date of death, date the participant left the practice, date of the last data collection from the practice, or the end of the study (31st January 2020).
+
+**Outcomes:** first record (after indexdate) of: bisphosphonate prescription OR major osteoporotic fracture OR any fracture.
+
+#### pattern_rt_gap
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap.drawio.svg)
+
+### pattern {.tabset}
+
+#### 1
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-with%20example%20corticosteroid%20prescriptions.drawio.svg)
+
+#### 2
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-pattern_example_2.drawio.svg)
+
+#### 3
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-pattern_example_3.drawio.svg)
+
+### rt_gap {.tabset}
+
+#### 1
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_int_1.drawio.svg)
+
+#### 2
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_int_2.drawio.svg)
+
+#### 3
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_int_3.drawio.svg)
+
+#### 4
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_int_4.drawio.svg)
+
+#### 5
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_cont_1.drawio.svg)
+
+#### 6
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_cont_2.drawio.svg)
+
+#### 7
+
+![](docs/Graphical%20depiction%20of%20Study%20design%20FACET/Graphical%20depiction%20of%20Study%20design%20FACET-rt_gap_example_cont_3.drawio.svg)
+
+## Statistical methods
+
+Cox proportional hazards regression is used to estimate Hazard ratios (95% confidence intervals) for various outcomes comparing continuous oral corticosteroid use to intermittent oral corticosteroid use or high (\>=1500 mg) and medium (900-1499mg) to low (450-899mg) oral corticosteroid use. Models account for clustering by GP practice.
+
+The following code is used:
+
+`coxph(formula, data, cluster=pracid)`
+
+where:
+
+-   `formula`is a model such as `outcome_surv ~ pattern + age + sex`, i.e. the outcome is estimated by the prescription pattern, age and sex. The outcome_surv object is defined in a prior step for each of the outcomes of interest (bisphosphonate prescriptions, fractures, etc..)
+
+-   `data` is the dataset containing outcome_surv, exposure (such as pattern (continuous or intermittent), or cumulative dose) and covariates.
+
+-   `cluster=pracid` defines that a random effects model accounting for clustering by practice ID should be used.
+
+## Sensitivity analyses
+
+### Change in data management process
+
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                          | Main analysis                                                                                              | Sensitivity analysis                                                                                                                            |
++==========================+============================================================================================================+=================================================================================================================================================+
+| **sens_all_ped_imputed** | Prescriptions where the daily dose is NA are imputed. Prescriptions where the daily dose is 0 are dropped. | Prescriptions where the daily dose is NA or 0 (which are mostly prescriptions with text such as "take as directed") are imputed.                |
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **sens_all_follow_up**   | Follow up is limited to 1 year.                                                                            | Follow up is not limited.                                                                                                                       |
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **sens_no_asthma**       | People with asthma are not excluded.                                                                       | People who ever have a record for asthma are excluded.                                                                                          |
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **sens_itt**             | Continuous vs intermittent glucocorticoid use is defined using consecutive 90-day rolling windows.         | Continuous vs intermittent glucocorticoid use is defined in the first 90-days after index date, and remains the same for the rest of follow-up. |
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **sens_aged_66_plus**    | All people aged 18 or older on the date they become eligible are included.                                 | Only people aged 66 or older on their indexdate are included.                                                                                   |
++--------------------------+------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Change in exposure definition
+
+```{r}
+exposure
+```
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Analysis                                                                                                                                                                                                      | Strengths (compared to main definition)                                                                                                                                                                                                                  | Weaknesses                                                                                                                                                                                                                                                                                                                                                |
++===============================================================================================================================================================================================================+==========================================================================================================================================================================================================================================================+===========================================================================================================================================================================================================================================================================================================================================================+
+| **Main exposure definition (`pattern`):** Continuous vs intermittent glucocorticoid use is defined using consecutive 90-day rolling windows.                                                                  |                                                                                                                                                                                                                                                          | -   Uses future information.                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Measures mostly current use (i.e. windows classified as intermittent will often contain no prescriptions at all, rather than containing truly intermittent prescriptions). Measuring current use is less interesting; i.e. finding that bisphosphonate prescriptions are more commonly prescribed in people with current steroid use is unsurprising. |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Index date and exposure are defined using different windows. Essentially, we are stacking two complex ways of slicing the data.                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Time updating might not make sense given the connection with the risk threshold and the follow up limited to 1 year                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Window sizes differ depending on whether or not an event occurs. This may introduce misclassification when an event occurs during a short prescription at the beginning of a 90-day window that would otherwise classify a person as an intermittent user.                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Alternative exposure definition (`pattern_itt`):** Continuous vs intermittent glucocorticoid use is defined in the first 90-days after index date, and remains the same for the rest of follow-up.          | -   Uses future information only in the first window.                                                                                                                                                                                                    | -   Shares weaknesses with main exposure definition.                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                               | -   Could also exclude the first window to only use past information, however this would shift alignment away from the indexdate.                                                                                                                        | -   Is likely to measure mostly current use at the start of follow-up.                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Is not time updated.                                                                                                                                                                                                                                                                                                                                  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Alternative exposure definition (`pattern_lagged`):** Continuous vs intermittent glucocorticoid use is defined using the previous 90-day rolling window.                                                    | -   Uses only past information.                                                                                                                                                                                                                          | -   Shares weaknesses with main exposure definition.                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   The first window is before the indexdate, i.e. participants will rarely be offered bisphosphonates before reaching the risk threshold.                                                                                                                                                                                                                |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Alternative exposure definition (`pattern_rt_gap`):** Continuous vs intermittent glucocorticoid use is defined based on how quickly a participant reaches the risk threshold of 450 mg PED within 6 months. | -   Uses only past information.                                                                                                                                                                                                                          | -   Is not time updated (might actually be preferable for 1 year follow up).                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               | -   Index date and exposure are defined using the same window.                                                                                                                                                                                           | -   Might be a poor definition if the entire follow-up time is used, since not time-updated. (address this by using a time-updated alternative definition)                                                                                                                                                                                                |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               | -   Exposure is defined at time where fracture preventive care should be considered.                                                                                                                                                                     | -   Is dependent on dose (which may be desired). Continuous low doses may lead to a classification of intermittent use.                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               | -   Works as a continuous variable (days taken to reach the risk threshold). An example interpretation might be: "For every day longer that it takes a person to cross the risk threshold, the chance of getting prescribed a bisphosphonate decreases." | -   Continuous vs intermittent might not be the most appropriate labels: may need to call them continuous vs intermittent high dose use.                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                               |                                                                                                                                                                                                                                                          | -   Might need multiple additional sensitivity analyses with changes in the length of the risk threshold window and how to classify into continuous vs intermittent.                                                                                                                                                                                      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Outcomes
+
+```{r}
+outcome
+```
+
+Each outcome is defined as a record from the corresponding codelist during the follow-up period, see [Codelists].
+
+## Models
+
+```{r}
+as.data.frame(model) %>% 
+	rownames_to_column() %>% 
+	mutate(model=paste("exposure", model)) %>% 
+	gt()
+```
+
+## DAG (draft)
+
+```{r fig.height = 4, fig.width = 8}
+readr::read_file("docs/DAG.txt") %>% 
+	tidy_dagitty() %>%
+	ggdag_classic(size=5) + 
+	theme_dag_blank()
+```
+
+# Results
+
+## Descriptive Statistics
+
+### Participant flow {.tabset}
+
+#### UK
+
+```{r}
+participant_flow %>% 
+	filter(outcome=="bisphosphonate", analysis=="main", !duplicated(n)) %>% 
+	mutate(n=format(n, big.mark = ","),
+				 step=str_wrap(step, 50)) %>% 
+	report_flow_diagram("n", "step")
+```
+
+#### Canada
+
+```{r}
+canada_participant_flow %>% 
+		filter(outcome=="bisphosphonate", analysis=="main", !duplicated(n)) %>% 
+	mutate(n=format(n, big.mark = ","),
+				 step=str_wrap(step, 50)) %>% 
+	report_flow_diagram("n", "step")
+```
+
+### Baseline Characteristics
+
+#### UK&Canada - Entire study population
+
+```{r}
+gtable <- baseline_characteristics_cohort_steroids[c("rowname", "all", "all_percent")] %>%
+	full_join(canada_baseline_characteristics_steroids, by="rowname") %>% 
+	rename(UK=all.x, UK_percent=all_percent.x, Canada=all.y, Canada_percent=all_percent.y) %>% 
+	mutate(rowname=str_replace_all(rowname, setNames(dict$newnames, dict$oldnames)),
+				 country=case_when(!is.na(UK)&!is.na(Canada) ~ factor("both", levels = c("both", "UK", "Canada")),
+				 									!is.na(UK)&is.na(Canada) ~ factor("UK"),
+				 									is.na(UK)&!is.na(Canada) ~ factor("Canada"))) %>% 
+	arrange(country) %>% 
+	select(-country) %>% 
+	gt() %>%
+	tab_header(title = "Baseline characteristics") %>%
+	fmt_number(columns = c(2,4), decimals = 2, drop_trailing_zeros = T) %>%
+	fmt_percent(columns = c(3,5), decimals = 1, pattern = "({x})") %>%
+	cols_merge(columns = c("UK", "UK_percent"), pattern = "{1} {2}") %>% 
+	cols_merge(columns = c("Canada", "Canada_percent"), pattern = "{1} {2}") %>% 
+	tab_footnote("throughout entire follow-up (limited to 1 year for the study population; no limit for the wider eczema population)", cells_body(columns=c(UK, Canada), rows = contains("Ever")))
+gtable
+
+gtsave(gtable, "output/Table2.rtf")
+
+```
+
+#### UK only - by exposure at baseline
+
+Displays the characteristics at the start of follow-up for the study population (those that cross the corticosteroid risk threshold), and the characteristics of the wider population of all people identified with eczema on the date they became eligible.
+
+```{r}
+tableone_steroids <-  baseline_characteristics_cohort_steroids %>%
+	left_join(baseline_characteristics_cohort_eczema, by=c("rowname", "country")) %>% 
+	select(-country) %>% 
+	filter(!(rowname %in% c("male", "age_median", "age_IQR_upper", "age_IQR_lower", "sex1", "asthma0", "fract_any_ever0", "fract_composite_ever0", "fract_hip_ever0", "bisphosphonate_ever0"))) %>% 
+	mutate(rowname=str_replace_all(rowname, setNames(dict$newnames, dict$oldnames))) %>% 
+	gt() %>%
+	tab_header(title = "Baseline characteristics") %>%
+	fmt_number(columns = c(intermittent, continuous, all, all_eczema), decimals = 2, drop_trailing_zeros = T) %>%
+	fmt_percent(columns = c(intermittent_percent, continuous_percent, all_percent, all_eczema_percent), decimals = 1, pattern = "({x})") %>%
+	cols_merge(columns = c("intermittent", "intermittent_percent"), pattern = "{1} {2}") %>% 
+	cols_merge(columns = c("continuous", "continuous_percent"), pattern = "{1} {2}") %>% 
+	cols_merge(columns = c("all", "all_percent"), pattern = "{1} {2}") %>% 
+		cols_merge(columns = c("all_eczema", "all_eczema_percent"), pattern = "{1} {2}") %>% 
+	tab_footnote("throughout entire follow-up (limited to 1 year for the study population; no limit for the wider eczema population)", cells_body(columns=c(all, intermittent, continuous, all_eczema), rows = contains("Ever"))) %>% 
+tab_style(
+    style = list(cell_fill(color = "lightgrey")),
+    locations = cells_body(columns = all_eczema)
+  ) %>% 
+	tab_spanner(columns = c(intermittent, continuous, all),
+							label = "Study population (people that crossed the risk threshold") %>%
+		tab_spanner(columns = c(all_eczema),
+							label = "All people with eczema")
+	
+
+
+tableone_steroids
+#tableone_steroids %>% gtsave(filename = "tableone_steroids.rtf", path = "results")
+```
+
+### Continuous vs Intermittent use {.tabset}
+
+#### 1 year follow up {.tabset}
+
+```{r, results='asis'}
+plots <- map(exposure, 
+	~exposed_counts %>% 
+	filter(exposure==.x, outcome==outcome[[1]], analysis=="main") %>% 
+	ggplot(aes_string(x="rolling_window", y="Freq", group=.x)) +
+	geom_col(aes_string(fill=.x)) +
+	theme(legend.key.size = unit(1, "cm")))
+
+for (i in 1:length(exposure)) {
+  cat("##### ",exposure[i],"\n")
+  print(plots[[i]])
+  cat('\n\n')
+}
+```
+
+Number of people with continuous vs intermittent use by 90 day rolling window.
+
+
+#### All follow up (sens_all_follow_up)
+
+```{r}
+exposed_counts %>% 
+	filter(outcome=="fract_composite", analysis=="sens_all_follow_up", exposure=="pattern") %>% 
+	mutate(rolling_window=rolling_window/4) %>% 
+	ggplot(aes(x=rolling_window, y=Freq, group=pattern)) +
+	geom_col(aes(fill=pattern)) +
+	scale_x_continuous(n.breaks=8) +
+	labs(x="Years of follow up")
+```
+
+Number of people with continuous vs intermittent use by 90 day rolling window (all follow up). See [Sensitivity analyses]
+
+### Rates and person-years {.tabset}
+
+#### Event: Bisphosphonate prescription
+
+```{r}
+tableone_steroids_tdc <-  results_rates %>%
+	mutate(term=str_replace_all(term, setNames(dict$newnames, dict$oldnames))) %>% 
+	filter(outcome=="bisphosphonate", analysis=="main") %>% 
+	select(term, pyears, event, rate) %>%
+	gt(groupname_col = "outcome") %>%
+	tab_header(title = "Person years, rates and number of events (bisphosphonate prescriptions) throughout follow up") %>%
+	fmt_number(columns = c("rate"), decimals = 2, drop_trailing_zeros = T) %>%
+	fmt_number(columns = c("pyears", "event"), decimals = 0, drop_trailing_zeros = T) %>% 
+	tab_footnote("Rates per 1000 person-years", locations = cells_column_labels(columns = rate))
+
+
+tableone_steroids_tdc
+#tableone_steroids_tdc %>% gtsave(filename = "tableone_steroids_tdc.rtf", path = "results")
+
+```
+
+#### All results
+
+```{r}
+results_rates %>%
+	mutate(term=str_replace_all(term, setNames(dict$newnames, dict$oldnames))) %>% 
+	select(term, pyears, event, rate, analysis, outcome) %>%
+	mutate(across(where(is.numeric), round, digits=2)) %>% 
+	mutate(across(where(is.character), factor)) %>% 
+	datatable(filter = 'top', options = list( #Make interactive (filterable, searchable, etc.) table
+  pageLength = 5, autoWidth = TRUE))
+
+```
+
+## Hazard ratios from Cox regression
+
+```{r}
+#Join UK and Canadian results
+results_regression_both <- bind_rows(
+	results_regression,
+	canada_results_regression
+)
+
+results_rates_both <- bind_rows(
+	results_rates,
+	canada_results_rates
+)
+
+```
+
+
+### Forest Plots {.tabset}
+#### Sensitivity analysis comparison {.tabset}
+```{r, fig.width=6, fig.height=7}
+#Define labels (to be used for multiple plots)
+analysis_labels <- tribble(
+	~analysis, ~analysis_label, ~nester,
+	"main", "Main analysis", "Main",
+	"sens_pattern_itt", "Define exposure using first window", "Changed exposure definition",
+	"sens_pattern_lagged", "Define exposure using previous window", "Changed exposure definition",
+	"sens_pattern_rt_gap", "Define exposure using time to riskthreshold", "Changed exposure definition",
+	"sens_shorter_windows", "Use shorter windows to define exposure", "Changed exposure definition",
+	"sens_no_asthma", "Exclude people who ever have asthma", "Changed cohort definition",
+	"sens_all_ages", "Include people of all ages", "Changed cohort definition",
+	"sens_all_follow_up", "Include all follow up time", "Changed cohort definition",
+	"sens_adjusted_age_sex_carstairs", "- Comorbidities", "Changed model covariates",
+	"sens_adjusted_comorb_lifestyle", "+ BMI, Smoking, Alcohol", "Changed model covariates",
+	"sens_adjusted_comorb_cumdose", "+ Cumulative steroid dose", "Changed model covariates",
+	"sens_adjusted_comorb_severity", "+ Eczema severity", "Changed model covariates",
+	"sens_adjusted_comorb_non_steroid_fx_drugs", "+ Drugs increasing fracture risk", "Changed model covariates"
+) %>% 
+	mutate(analysis_label=str_wrap(analysis_label, 25),
+				 nester=as_factor(nester),
+				 analysis_label=fct_rev(as_factor(analysis_label)))
+
+model_labels <- tribble(
+	~model, ~model_label,
+	"crude", "crude",
+	"adjusted_comorb", "adjusted",
+	"adjusted_age_sex_carstairs", "adjusted\nage+sex\n+deprivation",
+	"adjusted_comorb_lifestyle", "adjusted\nage+sex\n+deprivation\n+comorbidities\n+lifestyle",
+	"adjusted_comorb_cumdose", "adjusted\nage+sex\n+deprivation\n+comorbidities\n+cumulative steroid dose",
+	"adjusted_comorb_severity", "adjusted\nage+sex\n+deprivation\n+comorbidities\n+eczema severity",
+)
+
+#Define data
+data_sens_plots <- results_regression_both %>% 
+	filter(
+		exposure=="pattern" | analysis=="main",
+		model %in% c("crude", "adjusted_comorb") | (analysis=="main" & term=="patterncontinuous"), 
+		str_detect(term, "pattern"),
+	) %>% 
+	mutate(
+		country=as_factor(country),
+		analysis=ifelse(exposure!="pattern", paste0("sens_", exposure), analysis),
+		analysis=ifelse(!(model %in% c("crude", "adjusted_comorb")), paste0("sens_", model), analysis),
+		model=ifelse(!(model %in% c("crude", "adjusted_comorb")), "adjusted_comorb", model)
+	) %>% 
+	left_join(analysis_labels, by="analysis") %>% 
+	left_join(model_labels, by="model") %>% 
+	mutate(model_label=as_factor(model_label))
+
+
+#
+
+#Define plotting function
+plot_sens_forest_plots <- function(x) {
+	x %>% 
+		ggplot(aes(x=analysis_label, 
+							 y=estimate, 
+							 ymin=conf.low, 
+							 ymax=conf.high,
+							 colour=country,
+							 shape=model_label)) +
+		geom_pointrange(position = position_dodge2(0.6, reverse=TRUE)) + 
+		geom_hline(yintercept=1, lty=2) +
+		geom_vline(xintercept = seq(0.5, length(data_sens_plots$analysis), by = 1), color="gray", size=.5, alpha=.5) +
+		facet_grid(rows = vars(nester) ,scales = "free", space = "free", switch = "both") +
+		coord_flip(ylim = c(0.9, round(max(data_sens_plots$conf.high, na.rm = TRUE)))) + 
+		xlab("Analysis") + 
+		ylab(element_blank()) +
+		labs(color="Country",
+				 shape="HR (95% CI)") +
+		theme_bw() +
+		theme(strip.placement="outside",
+					legend.position = "bottom",
+					legend.justification = "left",
+					legend.key.size = unit(0.5,"line"),
+					legend.box = "horizontal",
+					legend.box.just = "left",
+					legend.spacing.y = unit(0, 'cm'),
+					legend.box.margin = margin(-5,-5,-5,-5),
+					legend.margin=margin(-10,0,0,0),
+					panel.grid.minor.y = element_blank(),
+					panel.grid.major.y = element_blank(),
+					panel.grid.minor.x = element_blank())
+#		geom_text(aes(label=paste("HR", round(estimate,2), "95%CI", round(conf.low,2), ",", round(conf.high,2))),position = position_dodge2(0.6, reverse=TRUE),size=2.5)
+}
+```
+##### Outcome: Bisphosphonate
+
+```{r, fig.width=6, fig.height=7}
+#Plot
+data_sens_plots %>%
+	filter(outcome=="bisphosphonate") %>% 
+	plot_sens_forest_plots()
+ggsave("output/Figure3.png")
+```
+
+*Hazard ratios (95% confidence intervals) for receiving a **bisphosphonate** prescription **comparing continuous to intermittent** oral corticosteroid use. Estimates from random effects Cox models (accounting for clustering by GP practice).*
+
+For model and analysis specifications see [Models] and [Sensitivity analyses].
+
+##### Outcome: Fracture
+
+```{r, fig.width=6, fig.height=7}
+#Plot
+data_sens_plots %>%
+	filter(outcome=="fract_composite") %>% 
+	plot_sens_forest_plots()
+ggsave("output/Figure4.png")
+```
+
+*Hazard ratios (95% confidence intervals) for experiencing a **major osteoporotic fracture** prescription **comparing continuous to intermittent** oral corticosteroid use. Estimates from random effects Cox models (accounting for clustering by GP practice).*
+
+For model and analysis specifications see [Models] and [Sensitivity analyses].
+
+
+#### All results by exposure {.tabset}
+
+*Hazard ratios (95% confidence intervals) for various outcomes comparing continuous to intermittent oral corticosteroid use or high (\>=1500 mg) and medium (900-1499mg) to low (450-899mg) oral corticosteroid use. Estimates from random effects Cox models (accounting for clustering by GP practice).*
+
+For model and analysis specifications see [Models] and [Sensitivity analyses].
+
+```{r, results='asis'}
+#Set axis limit to the maximum of the first exposure so its the same for all plots
+limit <- results_regression %>% 
+	filter(exposure==exposure[[1]] & str_detect(term, exposure[[1]])) %>% 
+	select(estimate) %>% 
+	max()
+
+plots <- map(exposure, 
+	~	results_regression %>% 
+		group_by(outcome, exposure, model, analysis) %>% 
+		filter(exposure ==.x & str_detect(term, .x)) %>% 
+	mutate(model=factor(model, levels = unique(model))) %>% 
+ggplot(aes(x=outcome, 
+										y=estimate, 
+										ymin=conf.low, 
+										ymax=conf.high,
+										group=interaction(model, analysis),
+										colour=analysis,
+										shape=model)) +
+	geom_pointrange(position = position_dodge2(0.8, reverse=TRUE)) + 
+	geom_hline(yintercept=1, lty=2) +  # add a dotted line at x=1 after flip
+	coord_flip(ylim=c(0,limit)) +  # flip coordinates (puts labels on y axis)
+	xlab("Outcome") + 
+	ylab("HR (95% CI)") +
+	theme_bw()
+)
+
+for (i in 1:length(exposure)) {
+  cat("##### ",exposure[i],"\n")
+  print(plots[[i]])
+  cat('\n\n')
+}
+```
+
+
+### Tables {.tabset}
+
+#### Main Results Table
+```{r}
+#Make table of baseline values
+baseline <- data_sens_plots[!duplicated(data_sens_plots[c("term", "outcome", "exposure", "model", "analysis", "country")]),] %>% 
+	mutate(estimate=1, std.error=0, robust.se=0, statistic=0, p.value=0, conf.low=1, conf.high=1,
+				 term=str_replace_all(term, "continuous", "intermittent"),
+				 model=ifelse(model=="crude", "baseline", model))
+
+gtable <- data_sens_plots %>% 
+	bind_rows(baseline[baseline$model=="baseline",]) %>% 
+	left_join(results_rates_both, by = c("term", "outcome", "analysis", "country")) %>% 
+	filter(outcome %in% c("bisphosphonate", "fract_composite", "fract_hip", "calcium_and_vit_d", "dexa"),
+				 analysis %in% c("main"),
+				 model %in% c("crude", "adjusted_comorb")) %>% 
+	mutate(image = kableExtra::spec_pointrange(x = estimate, 
+																						 xmin = conf.low, 
+																						 xmax = conf.high, 
+																						 vline = 1,
+																						 lim = c(min(0,min(conf.low)), max(conf.high)),
+																						 cex = .75,
+																						 width = 400,
+																						 col = "black",
+																						 pch = 16),
+				 image = map(image, "svg_text"),
+				 image = map(image, ~gt::html(as.character(.x)))) %>% 
+	select(outcome, model, image, country, estimate, conf.low, conf.high, pyears, event, rate) %>% 
+	mutate(model=factor(model, levels=c("baseline", "crude", "adjusted_comorb")),
+				 country=factor(country, levels = c("UK", "Canada")),
+				 outcome=factor(outcome, levels = c("bisphosphonate", "calcium_and_vit_d", "dexa", "fract_composite", "fract_hip"))) %>% 
+	arrange(outcome, country, model) %>% 
+	group_by(outcome) %>% 
+	gt(rowname_col = "country") %>% 
+	tab_header(title = "Table") %>%
+	fmt_number(columns = c(estimate, conf.low, conf.high), decimals = 2) %>% 
+	fmt_number(columns = c(pyears, event, rate), decimals = 0, drop_trailing_zeros = T) %>% 
+	cols_merge(columns = c(estimate, conf.low, conf.high), pattern = "{1} ({2}-{3})") %>% 
+	tab_footnote(locations = cells_column_labels(columns = rate), footnote = "Rate per 1,000 person-years") %>% 
+	cols_label(
+    image = "",
+    estimate = "HR (95%CI)"
+  )
+gtsave(gtable, "output/Table3.png")
+```
+#### Results by exposure {.tabset}
+```{r, results='asis'}
+#Set axis limit to the maximum of the first exposure so its the same for all plots
+gttab <- data_sens_plots %>% 
+	filter(outcome %in% c("bisphosphonate", "fract_composite", "fract_hip", "calcium_and_vit_d", "dexa")) %>% 
+	select(outcome, analysis, model, country, estimate, conf.low, conf.high) %>% 
+	arrange(country, analysis, model) %>% 
+	pivot_wider(names_from = model, values_from = c(estimate, conf.low, conf.high)) %>% 
+		mutate(image = kableExtra::spec_pointrange(x = estimate_adjusted_comorb, 
+																						 xmin = conf.low_adjusted_comorb, 
+																						 xmax = conf.high_adjusted_comorb, 
+																						 vline = 1,
+																						 cex = .75,
+																						 width = 400,
+																						 col = "black",
+																						 pch = 16),
+				 image = map(image, "svg_text"),
+				 image = map(image, ~gt::html(as.character(.x)))) %>% 
+		select(outcome, analysis, image, country, estimate_adjusted_comorb, conf.low_adjusted_comorb, conf.high_adjusted_comorb, estimate_crude, conf.low_crude, conf.high_crude) %>% 
+	group_by(outcome) %>% 
+	gt(rowname_col = "country") %>% 
+	tab_header(title = "Regression Results") %>%
+	fmt_number(columns = c(estimate_adjusted_comorb, estimate_crude, conf.low_adjusted_comorb, conf.low_crude, conf.high_adjusted_comorb, conf.high_crude), decimals = 2) %>% 
+	cols_merge(columns = c(estimate_crude, conf.low_crude, conf.high_crude), pattern = "{1} ({2}-{3})") %>% 
+	cols_merge(columns = c(estimate_adjusted_comorb, conf.low_adjusted_comorb, conf.high_adjusted_comorb), pattern = "{1} ({2}-{3})") %>% 
+	cols_label(
+		estimate_adjusted_comorb = "adjusted HR (95%CI)",
+		estimate_crude = "crude HR (95%CI)",
+		image = ""
+	)
+gtsave(gttab, "output/Table1.png")
+```
+
+
+#### Filterable Table of all results
+
+*Interactive Table: search, filter, and sort*
+
+```{r}
+results_regression %>% 
+	filter(exposure %in% exposure & str_detect(term, exposure)) %>% 
+	select(term, model, exposure, outcome, analysis, estimate, conf.low, conf.high) %>% 
+	mutate(across(where(is.numeric), round, digits=2)) %>% 
+	mutate(across(where(is.character), factor)) %>% 
+	datatable(filter = 'top', options = list( #Make interactive (filterable, searchable, etc.) table
+  pageLength = 5, autoWidth = TRUE))
+
+```
+
+*Hazard ratios (95% confidence intervals) for various outcomes comparing continuous to intermittent oral corticosteroid use or high (\>=1500 mg) and medium (900-1499mg) to low (450-899mg) oral corticosteroid use. Estimates from random effects Cox models (accounting for clustering by GP practice).*
+
+## Results section for manuscript
+
+```{r Inline Results, include=FALSE}
+#HRs and 95%CIs
+
+#Format for printing
+hrci <- results_regression_both %>%
+	filter(str_detect(term, "pattern")) %>% #Keep only the exposures of interest
+	mutate(across(is.numeric, round, digits = 2)) %>% #Round all numbers to 2 digits
+	mutate(hrci=paste0("HR ", estimate, "; 95%CI ", conf.low, "–", conf.high))  #Make string containing HR and 95% CI
+
+#Create a nested list of HRs & 95% CIs, nested in the pattern hrci$country$outcome$exposure$model$analysis
+hrci <- lapply(split(hrci, hrci$country), 
+							 function(x) lapply(split(x, x$outcome),
+							 									 function(x) lapply(split(x, x$exposure),
+							 									 									 function(x) lapply(split(x, x$analysis),
+							 									 									 									 function(x) lapply(split(x$hrci, x$model), as.list)
+							 									 									 )
+							 									 )
+							 )
+)
+
+#Rates
+
+#Format for printing
+rate <- results_rates_both %>%
+	mutate(across(is.numeric, round, digits = 1)) %>% #Round all numbers to 2 digits
+	mutate(across(is.numeric, format, big.mark=","))  #Add comma separator every 3 digits
+
+#Create a nested list of HRs & 95% CIs, nested in the pattern rate$country$outcome$exposure$analysis$term
+rate <- lapply(split(rate, rate$country), 
+							 function(x) lapply(split(x, x$outcome),
+							 									 function(x) lapply(split(x, x$group),
+							 									 									 function(x) lapply(split(x, x$analysis),
+							 									 									 									 function(x) lapply(split(x$rate, x$term), as.list)
+							 									 									 )
+							 									 )
+							 )
+)
+
+rate$Canada$bisphosphonate
+```
+
+
+```{r}
+glue::glue(
+"In the UK, people prescribed continuous OCSs had higher rates of bisphosphonate prescriptions than those prescribed OCSs intermittently (crude {hrci$UK$bisphosphonate$pattern$main$crude}; age, sex, deprivation and comorbidity adjusted {hrci$UK$bisphosphonate$pattern$main$adjusted_comorb}). Effect estimates were attenuated in sensitivity analyses using different exposure definitions (using previous window: adjusted {hrci$UK$bisphosphonate$pattern_lagged$main$adjusted_comorb}; using time to risk threshold: adjusted {hrci$UK$bisphosphonate$pattern_rt_gap$main$adjusted_comorb}). Effect estimates were broadly similar in sensitivity analyses with changes to the study cohort composition. Effect estimates were similar using calcium and vitamin D as the outcome (adjusted {hrci$UK$calcium_and_vit_d$pattern$main$crude}). The crude rates per 1000 person years were {rate$UK$bisphosphonate$pattern$main$patterncontinuous} in people prescribed OCSs continuously and {rate$UK$bisphosphonate$pattern$main$patternintermittent} in people prescribed OCSs intermittently."
+)
+```
+```{r}
+glue::glue(
+"In Canada, people prescribed continuous OCSs had higher rates of bisphosphonate prescriptions than those prescribed OCSs intermittently (crude {hrci$Canada$bisphosphonate$pattern$main$crude}; age, sex, deprivation and comorbidity adjusted {hrci$Canada$bisphosphonate$pattern$main$adjusted_comorb}). Effect estimates were attenuated in sensitivity analyses using different exposure definitions (using previous window: adjusted {hrci$Canada$bisphosphonate$pattern_lagged$main$adjusted_comorb}; using time to risk threshold: adjusted {hrci$Canada$bisphosphonate$pattern_rt_gap$main$adjusted_comorb}). Effect estimates were broadly similar in sensitivity analyses with changes to the study cohort composition. Effect estimates were similar using Dexa scans as the outcome (adjusted {hrci$Canada$dexa$pattern$main$crude}). The crude rates per 1000 person years were {rate$Canada$bisphosphonate$pattern$main$patterncontinuous} in people prescribed OCSs continuously and xxx in people prescribed OCSs intermittently."
+)
+```
+
+
+
+```{r}
+glue::glue(
+"In the UK, people prescribed continuous OCSs had higher rates of major osteoporotic fractures than those prescribed OCSs intermittently (crude {hrci$UK$fract_composite$pattern$main$crude}; adjusted {hrci$UK$fract_composite$pattern$main$adjusted_comorb}). Effect estimates were attenuated in sensitivity analyses using different exposure definitions (using previous window: adjusted {hrci$UK$fract_composite$pattern_lagged$main$crude}; using time to risk threshold: adjusted {hrci$UK$fract_composite$pattern_rt_gap$main$crude}). The crude rates per 1000 person years were {rate$UK$fract_composite$pattern$main$patterncontinuous} in people prescribed OCSs continuously and {rate$UK$fract_composite$pattern$main$patternintermittent} in people prescribed OCSs intermittently."
+)
+```
+
+```{r}
+glue::glue(
+"In Canada, people prescribed continuous OCSs had higher rates of major osteoporotic fractures than those prescribed OCSs intermittently (crude {hrci$Canada$fract_composite$pattern$main$crude}; adjusted {hrci$Canada$fract_composite$pattern$main$adjusted_comorb}). Effect estimates were attenuated in sensitivity analyses using different exposure definitions (using previous window: adjusted {hrci$Canada$fract_composite$pattern_lagged$main$crude}; using time to risk threshold: adjusted {hrci$Canada$fract_composite$pattern_rt_gap$main$crude}). The crude rates per 1000 person years were {rate$Canada$fract_composite$pattern$main$patterncontinuous} in people prescribed OCSs continuously and xxx in people prescribed OCSs intermittently."
+)
+```
+
+# Appendix
+
+## Pipeline
+
+The following graph shows the analysis pipeline.
+
+```{r}
+tar_visnetwork(exclude = c(starts_with(c("path", "dict", "analysis", "model", "exposure", "outcome", "rate_vars", "imputation_condition")), ends_with(c("redacted_file", "redacted"))), targets_only = TRUE) #Exclude file paths, the dictionary and specifications
+```
+
+## Inputs
+
+The pipeline takes the following inputs:
+
+-   **main cohort**: a file containing patient IDs for people with eczema
+
+-   **static variables**: files containing patient IDs and variables that remain constant over time (date of birth, sex, GP-practice, deprivation) and variables that are only measured once (BMI, smoking status around index date)
+
+-   **time-updated variables**: files containing patient IDs and eventdates of variables:
+
+    -   that occur only once i.e. a participant is flagged as having the characteristic of interest from the eventdate (asthma, harmful alcohol use)
+
+    -   that can occur multiple times:
+
+        -   Events (follow up ends at first occurrence)
+
+        -   Glucocorticoid prescriptions, containing additional information of prescriptions dose and duration
+
+### Codelists {.tabset}
+
+The codelists contain the following unique names:
+
+```{r message=FALSE, warning=FALSE}
+map_dfr(dir("codelists", pattern = ".csv", full.names = TRUE), 
+			 function(x) {
+			 	read_csv(x) %>% 
+			 		rename(any_of(c("readterm"="productname"))) %>% 
+			 		select(readterm) %>% 
+			 		mutate(codelist=factor(tools::file_path_sans_ext(basename(x))))
+			 }) %>% datatable(filter = 'top', options = list(pageLength = 10, autoWidth = TRUE))
+
+```
+
+## Branches
+
+The following shows the different branches of the `cohort_steroids` target (each combination of outcome and analysis needs a separate dataset). To inspect the contents of any of the branches, call `tar_read(cohort_steroids)[[branch number]]` (requires access to the data).
+
+```{r message=FALSE}
+expand_grid(outcome, analysis) %>% 
+	rownames_to_column(var="branch number") %>% 
+	gt() %>% 
+	tab_header("Branches of the cohort_steroids target")
+```

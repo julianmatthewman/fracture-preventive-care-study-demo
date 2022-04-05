@@ -1,0 +1,6 @@
+
++ agegroup + sex + carstairs + asthma + copd + rheumatoid_arthritis
++ agegroup + sex + carstairs + asthma + copd + rheumatoid_arthritis + severity
++ agegroup + sex + carstairs
++ agegroup + sex + carstairs + asthma + copd + rheumatoid_arthritis + smokstatus + bmi_cat + alc
++ agegroup + sex + carstairs + asthma + copd + rheumatoid_arthritis + cumdose_cont

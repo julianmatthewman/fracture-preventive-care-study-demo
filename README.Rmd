@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Analysis code for the FACET study (UK part)
+
+This repository contains analysis code for the FACET study [link to paper](link to paper). The project uses the `targets` pipeline toolkit.
+
+## How to run
+
+1. Open the R console and call `renv::restore()` to install the required R packages.
+2. Call `tar_make()` to run the pipeline.
+3. Call `tar_read(target)` to retrieve a specified target.
+4. Call `tar_visnetwork()` and `tar_glimpse()` to visualise the pipeline.
+
+## File structure
+
+File | Purpose
+---|---
+[`_targets.R`] | Declares the [`targets`](https://docs.ropensci.org/targets) pipeline. See `tar_script()` for details.
+[`_targets.yaml`] | Contains the path to the data store, where targets are saved as R objects.
+[`renv/`] | Contains the project specific package library.
+[`renv.lock`] | The state of the project library is saved in this "lockfile".
+[`R/`] | Contains R scripts with user-defined functions. 
+[`report`.Rmd`] | an R Markdown report of study findings.

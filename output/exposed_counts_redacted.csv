@@ -1,0 +1,2497 @@
+rolling_window,pattern,Freq,outcome,analysis,exposure,cumdays,pattern_rt_gap,pattern_lagged,pattern_itt,cumdose
+1,intermittent,625,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+2,intermittent,893,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+4,intermittent,870,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+1,continuous,300,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+2,continuous,27,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+3,continuous,23,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+4,continuous,26,bisphosphonate,main,pattern,NA,NA,NA,NA,NA
+1,NA,20,bisphosphonate,main,cumdays,few,NA,NA,NA,NA
+2,NA,16,bisphosphonate,main,cumdays,few,NA,NA,NA,NA
+3,NA,14,bisphosphonate,main,cumdays,few,NA,NA,NA,NA
+4,NA,NA,bisphosphonate,main,cumdays,few,NA,NA,NA,NA
+1,NA,905,bisphosphonate,main,cumdays,many,NA,NA,NA,NA
+2,NA,904,bisphosphonate,main,cumdays,many,NA,NA,NA,NA
+3,NA,898,bisphosphonate,main,cumdays,many,NA,NA,NA,NA
+4,NA,887,bisphosphonate,main,cumdays,many,NA,NA,NA,NA
+1,NA,239,bisphosphonate,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,bisphosphonate,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,237,bisphosphonate,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,233,bisphosphonate,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,bisphosphonate,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,682,bisphosphonate,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,675,bisphosphonate,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,663,bisphosphonate,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,bisphosphonate,main,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,623,bisphosphonate,main,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,bisphosphonate,main,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,874,bisphosphonate,main,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,bisphosphonate,main,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,297,bisphosphonate,main,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,bisphosphonate,main,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,bisphosphonate,main,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,625,bisphosphonate,main,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,623,bisphosphonate,main,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,618,bisphosphonate,main,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,611,bisphosphonate,main,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,300,bisphosphonate,main,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,297,bisphosphonate,main,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,294,bisphosphonate,main,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,285,bisphosphonate,main,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,bisphosphonate,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,bisphosphonate,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,bisphosphonate,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,bisphosphonate,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,bisphosphonate,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,bisphosphonate,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,bisphosphonate,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,bisphosphonate,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,bisphosphonate,main,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,bisphosphonate,main,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,bisphosphonate,main,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,877,bisphosphonate,main,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,625,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,intermittent,893,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,intermittent,870,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,intermittent,857,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,intermittent,862,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,intermittent,836,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,intermittent,828,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,intermittent,809,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,intermittent,799,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,intermittent,766,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,intermittent,755,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,intermittent,729,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,intermittent,711,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,intermittent,685,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,intermittent,655,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,intermittent,625,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,intermittent,589,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,intermittent,539,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,intermittent,507,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,intermittent,471,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,intermittent,429,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,intermittent,388,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,intermittent,340,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,intermittent,309,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,intermittent,277,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,intermittent,244,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,intermittent,217,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,intermittent,182,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,intermittent,156,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,intermittent,145,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,intermittent,121,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,intermittent,102,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,intermittent,83,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,intermittent,70,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,intermittent,54,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,intermittent,42,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,intermittent,30,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,intermittent,21,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,intermittent,16,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,intermittent,12,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,intermittent,10,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,intermittent,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,continuous,300,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,continuous,27,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,continuous,23,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,continuous,26,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,continuous,26,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,continuous,11,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,continuous,21,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,continuous,15,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,continuous,14,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,continuous,10,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,continuous,21,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,continuous,11,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,continuous,21,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,continuous,13,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,continuous,14,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,continuous,10,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,continuous,14,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,continuous,10,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,continuous,10,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,continuous,NA,bisphosphonate,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,NA,20,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+2,NA,16,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+3,NA,14,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+4,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+5,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+6,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+7,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+8,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+9,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+10,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+11,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+12,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+13,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+14,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+15,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+16,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+17,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+18,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+19,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+20,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+21,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+22,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+23,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+24,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+25,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+26,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+27,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+28,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+29,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+30,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+31,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+32,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+33,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+34,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+35,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+36,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+37,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+38,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+39,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+40,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+41,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+1,NA,905,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+2,NA,904,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+3,NA,898,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+4,NA,887,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+5,NA,875,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+6,NA,867,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+7,NA,853,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+8,NA,839,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+9,NA,821,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+10,NA,807,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+11,NA,787,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+12,NA,766,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+13,NA,750,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+14,NA,724,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+15,NA,694,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+16,NA,669,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+17,NA,633,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+18,NA,597,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+19,NA,549,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+20,NA,516,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+21,NA,485,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+22,NA,439,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+23,NA,396,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+24,NA,350,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+25,NA,317,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+26,NA,280,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+27,NA,249,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+28,NA,223,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+29,NA,185,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+30,NA,159,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+31,NA,148,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+32,NA,123,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+33,NA,103,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+34,NA,83,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+35,NA,71,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+36,NA,55,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+37,NA,43,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+38,NA,30,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+39,NA,21,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+40,NA,16,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+41,NA,13,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+42,NA,10,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+1,NA,239,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,237,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,233,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+5,NA,230,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+6,NA,229,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+7,NA,226,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+8,NA,220,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+9,NA,214,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+10,NA,212,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+11,NA,206,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+12,NA,202,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+13,NA,200,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+14,NA,193,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+15,NA,187,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+16,NA,183,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+17,NA,172,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+18,NA,162,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+19,NA,149,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+20,NA,133,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+21,NA,128,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+22,NA,119,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+23,NA,107,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+24,NA,93,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+25,NA,82,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+26,NA,73,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+27,NA,64,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+28,NA,61,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+29,NA,48,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+30,NA,41,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+31,NA,37,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+32,NA,32,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+33,NA,29,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+34,NA,21,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+35,NA,18,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+36,NA,14,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+37,NA,13,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+38,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+39,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+40,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+41,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,682,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,675,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,663,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+5,NA,653,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+6,NA,644,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+7,NA,631,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+8,NA,623,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+9,NA,609,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+10,NA,597,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+11,NA,581,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+12,NA,564,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+13,NA,550,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+14,NA,531,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+15,NA,507,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+16,NA,486,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+17,NA,461,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+18,NA,435,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+19,NA,400,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+20,NA,383,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+21,NA,357,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+22,NA,320,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+23,NA,289,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+24,NA,257,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+25,NA,235,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+26,NA,207,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+27,NA,185,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+28,NA,162,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+29,NA,137,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+30,NA,118,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+31,NA,111,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+32,NA,91,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+33,NA,74,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+34,NA,62,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+35,NA,53,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+36,NA,41,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+37,NA,30,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+38,NA,22,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+39,NA,15,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+40,NA,10,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+41,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,623,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,874,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+5,NA,857,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+6,NA,847,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+7,NA,846,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+8,NA,822,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+9,NA,809,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+10,NA,797,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+11,NA,778,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+12,NA,747,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+13,NA,740,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+14,NA,703,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+15,NA,684,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+16,NA,661,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+17,NA,620,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+18,NA,590,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+19,NA,541,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+20,NA,509,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+21,NA,477,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+22,NA,427,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+23,NA,387,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+24,NA,344,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+25,NA,309,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+26,NA,274,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+27,NA,247,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+28,NA,219,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+29,NA,182,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+30,NA,158,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+31,NA,147,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+32,NA,121,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+33,NA,102,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+34,NA,82,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+35,NA,71,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+36,NA,54,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+37,NA,43,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+38,NA,30,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+39,NA,21,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+40,NA,16,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+41,NA,13,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,297,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+5,NA,26,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+6,NA,26,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+7,NA,11,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+8,NA,21,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+9,NA,14,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+10,NA,12,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+11,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+12,NA,19,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+13,NA,10,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+14,NA,21,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+15,NA,10,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+16,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+17,NA,13,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+18,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+19,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+20,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+21,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+22,NA,12,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+23,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+24,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+25,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+26,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+27,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+28,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+29,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+30,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+31,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+32,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+33,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+34,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+35,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+36,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+37,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+38,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+39,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+40,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+41,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,625,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,623,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,618,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,611,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+5,NA,603,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+6,NA,599,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+7,NA,587,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+8,NA,580,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+9,NA,566,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+10,NA,558,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+11,NA,545,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+12,NA,528,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+13,NA,515,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+14,NA,496,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+15,NA,473,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+16,NA,460,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+17,NA,431,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+18,NA,408,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+19,NA,376,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+20,NA,352,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+21,NA,330,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+22,NA,302,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+23,NA,276,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+24,NA,242,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+25,NA,224,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+26,NA,196,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+27,NA,175,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+28,NA,158,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+29,NA,129,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+30,NA,109,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+31,NA,102,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+32,NA,89,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+33,NA,76,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+34,NA,60,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+35,NA,51,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+36,NA,41,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+37,NA,33,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+38,NA,25,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+39,NA,17,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+40,NA,13,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+41,NA,11,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,300,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,297,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,294,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,285,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+5,NA,280,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+6,NA,274,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+7,NA,270,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+8,NA,263,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+9,NA,257,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+10,NA,251,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+11,NA,242,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+12,NA,238,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+13,NA,235,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+14,NA,228,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+15,NA,221,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+16,NA,209,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+17,NA,202,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+18,NA,189,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+19,NA,173,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+20,NA,164,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+21,NA,155,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+22,NA,137,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+23,NA,120,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+24,NA,108,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+25,NA,93,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+26,NA,84,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+27,NA,74,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+28,NA,65,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+29,NA,56,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+30,NA,50,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+31,NA,46,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+32,NA,34,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+33,NA,27,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+34,NA,23,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+35,NA,20,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+36,NA,14,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+37,NA,10,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+38,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+39,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+40,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+41,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+42,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+43,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+44,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+45,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+46,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+47,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+48,NA,NA,bisphosphonate,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+5,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+6,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+7,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+8,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+9,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+10,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+11,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+12,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+13,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+14,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+15,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+16,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+17,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+18,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+19,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+20,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+21,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+22,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+23,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+24,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+25,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+26,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+27,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+28,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+29,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+30,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+31,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+32,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+33,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+34,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+35,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+36,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+37,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+38,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+39,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+40,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+41,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+42,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+43,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+44,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+45,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+46,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+47,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+48,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+5,NA,13,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+6,NA,10,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+7,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+8,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+9,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+10,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+11,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+12,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+13,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+14,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+15,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+16,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+17,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+18,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+19,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+20,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+21,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+22,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+23,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+24,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+25,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+26,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+27,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+28,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+29,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+30,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+31,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+32,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+33,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+34,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+35,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+36,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+37,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+38,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+39,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+40,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+41,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+42,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+43,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+44,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+45,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+46,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+47,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+48,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,877,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+5,NA,867,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+6,NA,861,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+7,NA,849,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+8,NA,837,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+9,NA,818,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+10,NA,804,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+11,NA,784,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+12,NA,765,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+13,NA,749,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+14,NA,723,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+15,NA,693,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+16,NA,669,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+17,NA,633,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+18,NA,597,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+19,NA,549,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+20,NA,516,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+21,NA,485,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+22,NA,439,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+23,NA,396,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+24,NA,350,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+25,NA,317,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+26,NA,280,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+27,NA,249,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+28,NA,223,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+29,NA,185,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+30,NA,159,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+31,NA,148,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+32,NA,123,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+33,NA,103,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+34,NA,83,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+35,NA,71,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+36,NA,55,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+37,NA,43,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+38,NA,30,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+39,NA,21,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+40,NA,16,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+41,NA,13,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+42,NA,10,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+43,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+44,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+45,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+46,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+47,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+48,NA,NA,bisphosphonate,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,178,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,intermittent,775,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,intermittent,861,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,intermittent,868,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,continuous,747,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,continuous,147,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,continuous,59,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,continuous,45,bisphosphonate,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,NA,20,bisphosphonate,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+2,NA,17,bisphosphonate,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+3,NA,16,bisphosphonate,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+4,NA,14,bisphosphonate,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+1,NA,905,bisphosphonate,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+2,NA,905,bisphosphonate,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+3,NA,904,bisphosphonate,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+4,NA,899,bisphosphonate,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+1,NA,239,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,238,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,237,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,684,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,682,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,676,bisphosphonate,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,896,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,178,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,773,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,856,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,29,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,744,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,147,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,57,bisphosphonate,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,178,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,178,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,178,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,178,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,747,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,744,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,742,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,735,bisphosphonate,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,10,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,18,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,894,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,889,bisphosphonate,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,622,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,intermittent,889,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,intermittent,885,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,intermittent,867,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,continuous,299,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,continuous,27,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,continuous,23,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,continuous,25,bisphosphonate,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,NA,20,bisphosphonate,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+2,NA,16,bisphosphonate,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+3,NA,14,bisphosphonate,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+4,NA,NA,bisphosphonate,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+1,NA,901,bisphosphonate,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+2,NA,900,bisphosphonate,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+3,NA,894,bisphosphonate,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+4,NA,883,bisphosphonate,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+1,NA,238,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,237,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,236,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,232,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,683,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,679,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,672,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,660,bisphosphonate,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,917,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,620,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,883,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,870,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,296,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,bisphosphonate,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,622,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,620,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,615,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,608,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,299,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,296,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,293,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,284,bisphosphonate,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,891,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,890,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,884,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,873,bisphosphonate,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,2739,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,intermittent,3816,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,intermittent,3783,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,intermittent,3743,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,continuous,1204,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,continuous,99,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,continuous,98,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,continuous,91,bisphosphonate,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,NA,248,bisphosphonate,sens_all_ages,cumdays,few,NA,NA,NA,NA
+2,NA,201,bisphosphonate,sens_all_ages,cumdays,few,NA,NA,NA,NA
+3,NA,172,bisphosphonate,sens_all_ages,cumdays,few,NA,NA,NA,NA
+4,NA,130,bisphosphonate,sens_all_ages,cumdays,few,NA,NA,NA,NA
+1,NA,3695,bisphosphonate,sens_all_ages,cumdays,many,NA,NA,NA,NA
+2,NA,3714,bisphosphonate,sens_all_ages,cumdays,many,NA,NA,NA,NA
+3,NA,3709,bisphosphonate,sens_all_ages,cumdays,many,NA,NA,NA,NA
+4,NA,3704,bisphosphonate,sens_all_ages,cumdays,many,NA,NA,NA,NA
+1,NA,1037,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,1029,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,1025,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,1014,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,2906,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,2886,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,2856,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,2820,bisphosphonate,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,3921,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,2731,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,3787,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,3740,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,22,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,1184,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,94,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,94,bisphosphonate,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,2739,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,2731,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,2710,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,2686,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,1204,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,1184,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,1171,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,1148,bisphosphonate,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,161,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,123,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,98,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,71,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,194,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,184,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,171,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,159,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,3588,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,3608,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,3612,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,3604,bisphosphonate,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,625,fract_composite,main,pattern,NA,NA,NA,NA,NA
+2,intermittent,894,fract_composite,main,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,fract_composite,main,pattern,NA,NA,NA,NA,NA
+4,intermittent,872,fract_composite,main,pattern,NA,NA,NA,NA,NA
+1,continuous,300,fract_composite,main,pattern,NA,NA,NA,NA,NA
+2,continuous,27,fract_composite,main,pattern,NA,NA,NA,NA,NA
+3,continuous,23,fract_composite,main,pattern,NA,NA,NA,NA,NA
+4,continuous,26,fract_composite,main,pattern,NA,NA,NA,NA,NA
+1,NA,20,fract_composite,main,cumdays,few,NA,NA,NA,NA
+2,NA,16,fract_composite,main,cumdays,few,NA,NA,NA,NA
+3,NA,14,fract_composite,main,cumdays,few,NA,NA,NA,NA
+4,NA,NA,fract_composite,main,cumdays,few,NA,NA,NA,NA
+1,NA,905,fract_composite,main,cumdays,many,NA,NA,NA,NA
+2,NA,905,fract_composite,main,cumdays,many,NA,NA,NA,NA
+3,NA,898,fract_composite,main,cumdays,many,NA,NA,NA,NA
+4,NA,889,fract_composite,main,cumdays,many,NA,NA,NA,NA
+1,NA,239,fract_composite,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,fract_composite,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,237,fract_composite,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,234,fract_composite,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,fract_composite,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,683,fract_composite,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,675,fract_composite,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,664,fract_composite,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,fract_composite,main,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,623,fract_composite,main,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,fract_composite,main,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,876,fract_composite,main,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,fract_composite,main,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,298,fract_composite,main,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,fract_composite,main,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,fract_composite,main,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,625,fract_composite,main,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,623,fract_composite,main,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,617,fract_composite,main,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,611,fract_composite,main,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,300,fract_composite,main,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,298,fract_composite,main,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,295,fract_composite,main,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,287,fract_composite,main,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,fract_composite,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,fract_composite,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,fract_composite,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,fract_composite,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,fract_composite,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,fract_composite,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,fract_composite,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,fract_composite,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,fract_composite,main,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,895,fract_composite,main,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,fract_composite,main,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,879,fract_composite,main,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,625,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,intermittent,894,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,intermittent,872,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,intermittent,860,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,intermittent,866,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,intermittent,844,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,intermittent,837,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,intermittent,820,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,intermittent,810,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,intermittent,777,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,intermittent,768,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,intermittent,744,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,intermittent,727,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,intermittent,701,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,intermittent,668,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,intermittent,640,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,intermittent,604,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,intermittent,556,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,intermittent,524,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,intermittent,487,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,intermittent,444,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,intermittent,403,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,intermittent,356,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,intermittent,324,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,intermittent,290,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,intermittent,255,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,intermittent,227,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,intermittent,191,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,intermittent,163,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,intermittent,152,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,intermittent,127,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,intermittent,106,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,intermittent,87,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,intermittent,73,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,intermittent,57,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,intermittent,45,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,intermittent,33,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,intermittent,22,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,intermittent,17,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,intermittent,13,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,intermittent,11,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,intermittent,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,continuous,300,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,continuous,27,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,continuous,23,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,continuous,26,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,continuous,26,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,continuous,11,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,continuous,21,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,continuous,15,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,continuous,14,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,continuous,10,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,continuous,21,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,continuous,11,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,continuous,22,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,continuous,13,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,continuous,15,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,continuous,10,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,continuous,14,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,continuous,10,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,continuous,NA,fract_composite,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,NA,20,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+2,NA,16,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+3,NA,14,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+4,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+5,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+6,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+7,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+8,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+9,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+10,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+11,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+12,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+13,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+14,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+15,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+16,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+17,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+18,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+19,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+20,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+21,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+22,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+23,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+24,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+25,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+26,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+27,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+28,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+29,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+30,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+31,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+32,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+33,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+34,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+35,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+36,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+37,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+38,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+39,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+40,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+41,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+42,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+1,NA,905,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+2,NA,905,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+3,NA,898,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+4,NA,889,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+5,NA,878,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+6,NA,871,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+7,NA,861,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+8,NA,848,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+9,NA,832,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+10,NA,818,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+11,NA,798,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+12,NA,779,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+13,NA,766,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+14,NA,740,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+15,NA,710,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+16,NA,683,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+17,NA,648,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+18,NA,613,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+19,NA,566,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+20,NA,533,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+21,NA,501,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+22,NA,454,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+23,NA,411,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+24,NA,365,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+25,NA,333,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+26,NA,293,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+27,NA,261,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+28,NA,233,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+29,NA,194,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+30,NA,166,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+31,NA,155,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+32,NA,129,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+33,NA,108,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+34,NA,87,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+35,NA,74,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+36,NA,58,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+37,NA,46,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+38,NA,33,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+39,NA,22,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+40,NA,17,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+41,NA,14,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+42,NA,11,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+1,NA,239,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,237,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,234,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+5,NA,231,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+6,NA,230,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+7,NA,228,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+8,NA,223,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+9,NA,217,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+10,NA,215,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+11,NA,209,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+12,NA,205,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+13,NA,203,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+14,NA,196,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+15,NA,190,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+16,NA,185,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+17,NA,174,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+18,NA,165,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+19,NA,153,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+20,NA,138,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+21,NA,133,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+22,NA,123,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+23,NA,112,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+24,NA,98,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+25,NA,86,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+26,NA,76,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+27,NA,67,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+28,NA,64,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+29,NA,51,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+30,NA,44,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+31,NA,40,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+32,NA,34,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+33,NA,31,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+34,NA,22,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+35,NA,18,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+36,NA,14,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+37,NA,13,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+38,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+39,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+40,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+41,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+42,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,683,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,675,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,664,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+5,NA,655,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+6,NA,647,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+7,NA,637,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+8,NA,629,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+9,NA,617,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+10,NA,605,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+11,NA,589,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+12,NA,574,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+13,NA,563,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+14,NA,544,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+15,NA,520,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+16,NA,498,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+17,NA,474,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+18,NA,448,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+19,NA,413,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+20,NA,395,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+21,NA,368,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+22,NA,331,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+23,NA,299,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+24,NA,267,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+25,NA,247,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+26,NA,217,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+27,NA,194,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+28,NA,169,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+29,NA,143,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+30,NA,122,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+31,NA,115,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+32,NA,95,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+33,NA,77,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+34,NA,65,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+35,NA,56,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+36,NA,44,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+37,NA,33,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+38,NA,25,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+39,NA,16,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+40,NA,11,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+41,NA,10,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+42,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,623,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,876,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+5,NA,860,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+6,NA,851,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+7,NA,854,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+8,NA,831,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+9,NA,820,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+10,NA,808,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+11,NA,789,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+12,NA,760,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+13,NA,756,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+14,NA,718,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+15,NA,700,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+16,NA,675,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+17,NA,634,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+18,NA,606,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+19,NA,557,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+20,NA,526,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+21,NA,493,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+22,NA,442,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+23,NA,402,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+24,NA,359,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+25,NA,325,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+26,NA,286,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+27,NA,259,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+28,NA,228,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+29,NA,191,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+30,NA,165,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+31,NA,154,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+32,NA,127,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+33,NA,107,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+34,NA,85,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+35,NA,74,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+36,NA,57,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+37,NA,46,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+38,NA,33,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+39,NA,22,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+40,NA,17,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+41,NA,14,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+42,NA,10,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,298,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+5,NA,26,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+6,NA,26,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+7,NA,11,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+8,NA,21,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+9,NA,14,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+10,NA,12,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+11,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+12,NA,19,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+13,NA,10,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+14,NA,22,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+15,NA,10,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+16,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+17,NA,14,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+18,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+19,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+20,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+21,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+22,NA,12,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+23,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+24,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+25,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+26,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+27,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+28,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+29,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+30,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+31,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+32,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+33,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+34,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+35,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+36,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+37,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+38,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+39,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+40,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+41,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+42,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,625,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,623,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,617,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,611,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+5,NA,604,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+6,NA,600,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+7,NA,591,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+8,NA,585,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+9,NA,573,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+10,NA,565,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+11,NA,552,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+12,NA,535,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+13,NA,525,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+14,NA,506,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+15,NA,483,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+16,NA,469,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+17,NA,441,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+18,NA,419,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+19,NA,388,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+20,NA,364,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+21,NA,341,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+22,NA,312,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+23,NA,287,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+24,NA,253,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+25,NA,234,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+26,NA,203,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+27,NA,181,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+28,NA,163,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+29,NA,134,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+30,NA,113,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+31,NA,106,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+32,NA,92,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+33,NA,80,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+34,NA,63,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+35,NA,53,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+36,NA,43,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+37,NA,35,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+38,NA,27,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+39,NA,18,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+40,NA,14,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+41,NA,12,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+42,NA,10,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,300,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,298,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,295,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,287,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+5,NA,282,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+6,NA,277,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+7,NA,274,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+8,NA,267,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+9,NA,261,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+10,NA,255,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+11,NA,246,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+12,NA,244,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+13,NA,241,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+14,NA,234,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+15,NA,227,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+16,NA,214,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+17,NA,207,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+18,NA,194,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+19,NA,178,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+20,NA,169,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+21,NA,160,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+22,NA,142,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+23,NA,124,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+24,NA,112,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+25,NA,99,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+26,NA,90,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+27,NA,80,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+28,NA,70,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+29,NA,60,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+30,NA,53,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+31,NA,49,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+32,NA,37,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+33,NA,28,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+34,NA,24,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+35,NA,21,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+36,NA,15,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+37,NA,11,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+38,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+39,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+40,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+41,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+42,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+43,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+44,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+45,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+46,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+47,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+48,NA,NA,fract_composite,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+5,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+6,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+7,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+8,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+9,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+10,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+11,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+12,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+13,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+14,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+15,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+16,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+17,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+18,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+19,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+20,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+21,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+22,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+23,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+24,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+25,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+26,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+27,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+28,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+29,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+30,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+31,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+32,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+33,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+34,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+35,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+36,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+37,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+38,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+39,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+40,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+41,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+42,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+43,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+44,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+45,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+46,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+47,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+48,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+5,NA,13,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+6,NA,10,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+7,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+8,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+9,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+10,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+11,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+12,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+13,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+14,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+15,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+16,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+17,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+18,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+19,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+20,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+21,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+22,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+23,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+24,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+25,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+26,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+27,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+28,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+29,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+30,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+31,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+32,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+33,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+34,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+35,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+36,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+37,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+38,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+39,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+40,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+41,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+42,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+43,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+44,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+45,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+46,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+47,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+48,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,895,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,879,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+5,NA,870,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+6,NA,865,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+7,NA,857,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+8,NA,846,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+9,NA,829,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+10,NA,815,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+11,NA,795,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+12,NA,778,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+13,NA,765,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+14,NA,739,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+15,NA,709,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+16,NA,683,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+17,NA,648,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+18,NA,613,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+19,NA,566,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+20,NA,533,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+21,NA,501,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+22,NA,454,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+23,NA,411,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+24,NA,365,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+25,NA,333,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+26,NA,293,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+27,NA,261,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+28,NA,233,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+29,NA,194,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+30,NA,166,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+31,NA,155,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+32,NA,129,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+33,NA,108,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+34,NA,87,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+35,NA,74,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+36,NA,58,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+37,NA,46,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+38,NA,33,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+39,NA,22,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+40,NA,17,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+41,NA,14,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+42,NA,11,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+43,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+44,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+45,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+46,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+47,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+48,NA,NA,fract_composite,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,178,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,intermittent,776,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,intermittent,862,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,intermittent,868,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,continuous,747,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,continuous,147,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,continuous,59,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,continuous,45,fract_composite,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,NA,20,fract_composite,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+2,NA,17,fract_composite,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+3,NA,16,fract_composite,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+4,NA,14,fract_composite,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+1,NA,905,fract_composite,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+2,NA,906,fract_composite,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+3,NA,905,fract_composite,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+4,NA,899,fract_composite,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+1,NA,239,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,238,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,238,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,237,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,685,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,683,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,676,fract_composite,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,896,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,178,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,774,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,856,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,29,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,745,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,147,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,57,fract_composite,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,178,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,178,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,178,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,178,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,747,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,745,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,743,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,735,fract_composite,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,10,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,18,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,895,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,895,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,889,fract_composite,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,622,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,intermittent,890,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,intermittent,885,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,intermittent,869,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,continuous,299,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,continuous,27,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,continuous,23,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,continuous,25,fract_composite,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,NA,20,fract_composite,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+2,NA,16,fract_composite,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+3,NA,14,fract_composite,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+4,NA,NA,fract_composite,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+1,NA,901,fract_composite,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+2,NA,901,fract_composite,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+3,NA,894,fract_composite,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+4,NA,885,fract_composite,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+1,NA,238,fract_composite,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,237,fract_composite,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,236,fract_composite,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,233,fract_composite,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,683,fract_composite,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,680,fract_composite,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,672,fract_composite,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,661,fract_composite,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,917,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,620,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,883,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,872,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,297,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,fract_composite,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,622,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,620,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,614,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,608,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,299,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,297,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,294,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,286,fract_composite,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,891,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,891,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,884,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,875,fract_composite,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,2740,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,intermittent,3826,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,intermittent,3797,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,intermittent,3764,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,continuous,1203,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,continuous,99,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,continuous,97,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,continuous,92,fract_composite,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,NA,248,fract_composite,sens_all_ages,cumdays,few,NA,NA,NA,NA
+2,NA,201,fract_composite,sens_all_ages,cumdays,few,NA,NA,NA,NA
+3,NA,172,fract_composite,sens_all_ages,cumdays,few,NA,NA,NA,NA
+4,NA,130,fract_composite,sens_all_ages,cumdays,few,NA,NA,NA,NA
+1,NA,3695,fract_composite,sens_all_ages,cumdays,many,NA,NA,NA,NA
+2,NA,3724,fract_composite,sens_all_ages,cumdays,many,NA,NA,NA,NA
+3,NA,3722,fract_composite,sens_all_ages,cumdays,many,NA,NA,NA,NA
+4,NA,3726,fract_composite,sens_all_ages,cumdays,many,NA,NA,NA,NA
+1,NA,1037,fract_composite,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,1034,fract_composite,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,1030,fract_composite,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,1022,fract_composite,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,2906,fract_composite,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,2891,fract_composite,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,2864,fract_composite,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,2834,fract_composite,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,3921,fract_composite,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,2736,fract_composite,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,3799,fract_composite,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,3762,fract_composite,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,22,fract_composite,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,1189,fract_composite,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,95,fract_composite,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,94,fract_composite,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,2740,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,2736,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,2716,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,2697,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,1203,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,1189,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,1178,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,1159,fract_composite,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,161,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,123,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,98,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,72,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,194,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,184,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,171,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,158,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,3588,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,3618,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,3625,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,3626,fract_composite,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,624,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+2,intermittent,893,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+4,intermittent,871,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+1,continuous,301,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+2,continuous,27,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+3,continuous,23,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+4,continuous,26,calcium_and_vit_d,main,pattern,NA,NA,NA,NA,NA
+1,NA,20,calcium_and_vit_d,main,cumdays,few,NA,NA,NA,NA
+2,NA,16,calcium_and_vit_d,main,cumdays,few,NA,NA,NA,NA
+3,NA,14,calcium_and_vit_d,main,cumdays,few,NA,NA,NA,NA
+4,NA,NA,calcium_and_vit_d,main,cumdays,few,NA,NA,NA,NA
+1,NA,905,calcium_and_vit_d,main,cumdays,many,NA,NA,NA,NA
+2,NA,904,calcium_and_vit_d,main,cumdays,many,NA,NA,NA,NA
+3,NA,898,calcium_and_vit_d,main,cumdays,many,NA,NA,NA,NA
+4,NA,888,calcium_and_vit_d,main,cumdays,many,NA,NA,NA,NA
+1,NA,239,calcium_and_vit_d,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,237,calcium_and_vit_d,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,236,calcium_and_vit_d,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,232,calcium_and_vit_d,main,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,calcium_and_vit_d,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,683,calcium_and_vit_d,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,676,calcium_and_vit_d,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,665,calcium_and_vit_d,main,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,calcium_and_vit_d,main,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,622,calcium_and_vit_d,main,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,calcium_and_vit_d,main,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,875,calcium_and_vit_d,main,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,calcium_and_vit_d,main,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,298,calcium_and_vit_d,main,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,calcium_and_vit_d,main,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,calcium_and_vit_d,main,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,624,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,622,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,617,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,610,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,301,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,298,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,295,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,287,calcium_and_vit_d,main,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,878,calcium_and_vit_d,main,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,624,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,intermittent,893,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,intermittent,889,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,intermittent,871,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,intermittent,859,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,intermittent,865,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,intermittent,844,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,intermittent,837,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,intermittent,821,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,intermittent,810,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,intermittent,777,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,intermittent,768,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,intermittent,742,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,intermittent,725,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,intermittent,699,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,intermittent,666,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,intermittent,638,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,intermittent,602,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,intermittent,554,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,intermittent,523,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,intermittent,485,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,intermittent,442,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,intermittent,400,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,intermittent,353,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,intermittent,321,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,intermittent,287,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,intermittent,252,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,intermittent,225,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,intermittent,189,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,intermittent,162,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,intermittent,151,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,intermittent,126,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,intermittent,105,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,intermittent,86,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,intermittent,72,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,intermittent,56,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,intermittent,44,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,intermittent,32,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,intermittent,21,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,intermittent,16,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,intermittent,12,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,intermittent,10,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,intermittent,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,continuous,301,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+2,continuous,27,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+3,continuous,23,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+4,continuous,26,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+5,continuous,26,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+6,continuous,11,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+7,continuous,21,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+8,continuous,15,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+9,continuous,14,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+10,continuous,10,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+11,continuous,21,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+12,continuous,11,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+13,continuous,22,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+14,continuous,13,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+15,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+16,continuous,15,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+17,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+18,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+19,continuous,10,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+20,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+21,continuous,14,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+22,continuous,10,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+23,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+24,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+25,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+26,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+27,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+28,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+29,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+30,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+31,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+32,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+33,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+34,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+35,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+36,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+37,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+38,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+39,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+40,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+41,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+42,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+43,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+44,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+45,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+46,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+47,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+48,continuous,NA,calcium_and_vit_d,sens_all_follow_up,pattern,NA,NA,NA,NA,NA
+1,NA,20,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+2,NA,16,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+3,NA,14,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+4,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+5,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+6,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+7,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+8,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+9,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+10,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+11,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+12,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+13,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+14,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+15,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+16,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+17,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+18,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+19,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+20,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+21,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+22,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+23,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+24,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+25,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+26,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+27,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+28,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+29,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+30,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+31,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+32,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+33,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+34,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+35,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+36,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+37,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,few,NA,NA,NA,NA
+1,NA,905,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+2,NA,904,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+3,NA,898,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+4,NA,888,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+5,NA,877,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+6,NA,870,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+7,NA,861,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+8,NA,848,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+9,NA,833,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+10,NA,818,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+11,NA,798,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+12,NA,779,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+13,NA,764,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+14,NA,738,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+15,NA,708,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+16,NA,681,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+17,NA,646,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+18,NA,611,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+19,NA,564,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+20,NA,531,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+21,NA,499,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+22,NA,452,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+23,NA,408,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+24,NA,362,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+25,NA,330,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+26,NA,290,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+27,NA,258,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+28,NA,231,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+29,NA,192,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+30,NA,165,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+31,NA,154,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+32,NA,128,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+33,NA,107,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+34,NA,86,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+35,NA,73,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+36,NA,57,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+37,NA,45,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+38,NA,32,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+39,NA,21,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+40,NA,16,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+41,NA,13,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+42,NA,10,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdays,many,NA,NA,NA,NA
+1,NA,239,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,237,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,236,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,232,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+5,NA,229,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+6,NA,228,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+7,NA,226,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+8,NA,221,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+9,NA,216,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+10,NA,214,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+11,NA,208,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+12,NA,204,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+13,NA,202,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+14,NA,195,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+15,NA,189,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+16,NA,184,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+17,NA,173,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+18,NA,164,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+19,NA,152,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+20,NA,137,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+21,NA,132,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+22,NA,122,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+23,NA,111,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+24,NA,97,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+25,NA,85,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+26,NA,75,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+27,NA,66,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+28,NA,63,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+29,NA,50,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+30,NA,43,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+31,NA,39,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+32,NA,33,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+33,NA,30,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+34,NA,21,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+35,NA,17,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+36,NA,13,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+37,NA,12,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,683,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,676,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,665,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+5,NA,656,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+6,NA,648,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+7,NA,639,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+8,NA,631,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+9,NA,619,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+10,NA,606,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+11,NA,590,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+12,NA,575,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+13,NA,562,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+14,NA,543,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+15,NA,519,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+16,NA,497,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+17,NA,473,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+18,NA,447,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+19,NA,412,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+20,NA,394,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+21,NA,367,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+22,NA,330,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+23,NA,297,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+24,NA,265,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+25,NA,245,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+26,NA,215,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+27,NA,192,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+28,NA,168,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+29,NA,142,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+30,NA,122,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+31,NA,115,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+32,NA,95,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+33,NA,77,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+34,NA,65,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+35,NA,56,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+36,NA,44,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+37,NA,33,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+38,NA,25,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+39,NA,16,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+40,NA,11,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+41,NA,10,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,921,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,622,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,887,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,875,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+5,NA,859,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+6,NA,850,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+7,NA,854,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+8,NA,831,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+9,NA,821,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+10,NA,808,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+11,NA,789,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+12,NA,760,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+13,NA,754,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+14,NA,716,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+15,NA,698,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+16,NA,673,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+17,NA,632,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+18,NA,604,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+19,NA,555,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+20,NA,524,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+21,NA,492,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+22,NA,440,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+23,NA,399,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+24,NA,356,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+25,NA,322,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+26,NA,283,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+27,NA,256,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+28,NA,226,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+29,NA,189,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+30,NA,164,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+31,NA,153,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+32,NA,126,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+33,NA,106,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+34,NA,84,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+35,NA,73,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+36,NA,56,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+37,NA,45,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+38,NA,32,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+39,NA,21,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+40,NA,16,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+41,NA,13,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,298,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+5,NA,26,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+6,NA,26,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+7,NA,11,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+8,NA,21,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+9,NA,14,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+10,NA,12,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+11,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+12,NA,19,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+13,NA,10,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+14,NA,22,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+15,NA,10,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+16,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+17,NA,14,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+18,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+19,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+20,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+21,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+22,NA,12,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+23,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+24,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+25,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+26,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+27,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+28,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+29,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+30,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+31,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+32,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+33,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+34,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+35,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+36,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+37,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,624,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,622,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,617,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,610,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+5,NA,603,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+6,NA,599,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+7,NA,591,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+8,NA,585,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+9,NA,574,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+10,NA,565,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+11,NA,552,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+12,NA,535,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+13,NA,523,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+14,NA,504,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+15,NA,481,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+16,NA,468,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+17,NA,440,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+18,NA,418,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+19,NA,387,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+20,NA,363,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+21,NA,340,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+22,NA,311,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+23,NA,285,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+24,NA,251,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+25,NA,232,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+26,NA,201,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+27,NA,179,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+28,NA,161,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+29,NA,132,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+30,NA,112,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+31,NA,105,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+32,NA,91,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+33,NA,79,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+34,NA,62,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+35,NA,52,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+36,NA,42,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+37,NA,34,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+38,NA,26,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+39,NA,17,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+40,NA,13,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+41,NA,11,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,301,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,298,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,295,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,287,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+5,NA,282,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+6,NA,277,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+7,NA,274,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+8,NA,267,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+9,NA,261,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+10,NA,255,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+11,NA,246,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+12,NA,244,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+13,NA,241,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+14,NA,234,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+15,NA,227,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+16,NA,213,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+17,NA,206,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+18,NA,193,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+19,NA,177,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+20,NA,168,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+21,NA,159,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+22,NA,141,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+23,NA,123,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+24,NA,111,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+25,NA,98,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+26,NA,89,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+27,NA,79,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+28,NA,70,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+29,NA,60,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+30,NA,53,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+31,NA,49,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+32,NA,37,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+33,NA,28,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+34,NA,24,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+35,NA,21,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+36,NA,15,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+37,NA,11,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+5,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+6,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+7,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+8,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+9,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+10,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+11,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+12,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+13,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+14,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+15,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+16,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+17,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+18,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+19,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+20,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+21,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+22,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+23,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+24,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+25,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+26,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+27,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+28,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+29,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+30,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+31,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+32,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+33,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+34,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+35,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+36,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+37,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+5,NA,13,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+6,NA,10,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+7,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+8,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+9,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+10,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+11,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+12,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+13,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+14,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+15,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+16,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+17,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+18,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+19,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+20,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+21,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+22,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+23,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+24,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+25,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+26,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+27,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+28,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+29,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+30,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+31,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+32,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+33,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+34,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+35,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+36,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+37,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+38,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+39,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+40,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+41,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+42,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,888,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,878,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+5,NA,869,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+6,NA,864,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+7,NA,857,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+8,NA,846,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+9,NA,830,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+10,NA,815,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+11,NA,795,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+12,NA,778,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+13,NA,763,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+14,NA,737,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+15,NA,707,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+16,NA,681,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+17,NA,646,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+18,NA,611,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+19,NA,564,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+20,NA,531,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+21,NA,499,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+22,NA,452,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+23,NA,408,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+24,NA,362,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+25,NA,330,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+26,NA,290,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+27,NA,258,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+28,NA,231,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+29,NA,192,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+30,NA,165,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+31,NA,154,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+32,NA,128,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+33,NA,107,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+34,NA,86,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+35,NA,73,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+36,NA,57,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+37,NA,45,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+38,NA,32,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+39,NA,21,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+40,NA,16,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+41,NA,13,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+42,NA,10,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+43,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+44,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+45,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+46,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+47,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+48,NA,NA,calcium_and_vit_d,sens_all_follow_up,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,178,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,intermittent,775,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,intermittent,861,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,intermittent,868,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,continuous,747,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+2,continuous,147,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+3,continuous,59,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+4,continuous,45,calcium_and_vit_d,sens_shorter_windows,pattern,NA,NA,NA,NA,NA
+1,NA,20,calcium_and_vit_d,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+2,NA,17,calcium_and_vit_d,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+3,NA,16,calcium_and_vit_d,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+4,NA,14,calcium_and_vit_d,sens_shorter_windows,cumdays,few,NA,NA,NA,NA
+1,NA,905,calcium_and_vit_d,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+2,NA,905,calcium_and_vit_d,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+3,NA,904,calcium_and_vit_d,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+4,NA,899,calcium_and_vit_d,sens_shorter_windows,cumdays,many,NA,NA,NA,NA
+1,NA,239,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,237,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,237,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,236,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,686,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,685,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,683,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,677,calcium_and_vit_d,sens_shorter_windows,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,896,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,178,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,773,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,856,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,29,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,744,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,147,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,57,calcium_and_vit_d,sens_shorter_windows,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,178,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,178,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,178,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,178,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,747,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,744,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,742,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,735,calcium_and_vit_d,sens_shorter_windows,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,10,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,18,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,895,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,894,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,894,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,889,calcium_and_vit_d,sens_shorter_windows,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,621,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,intermittent,889,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,intermittent,885,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,intermittent,868,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,continuous,300,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+2,continuous,27,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+3,continuous,23,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+4,continuous,25,calcium_and_vit_d,sens_no_asthma,pattern,NA,NA,NA,NA,NA
+1,NA,20,calcium_and_vit_d,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+2,NA,16,calcium_and_vit_d,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+3,NA,14,calcium_and_vit_d,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+4,NA,NA,calcium_and_vit_d,sens_no_asthma,cumdays,few,NA,NA,NA,NA
+1,NA,901,calcium_and_vit_d,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+2,NA,900,calcium_and_vit_d,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+3,NA,894,calcium_and_vit_d,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+4,NA,884,calcium_and_vit_d,sens_no_asthma,cumdays,many,NA,NA,NA,NA
+1,NA,238,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,236,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,235,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,231,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,683,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,680,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,673,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,662,calcium_and_vit_d,sens_no_asthma,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,917,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,619,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,883,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,871,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,NA,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,297,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,25,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,22,calcium_and_vit_d,sens_no_asthma,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,621,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,619,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,614,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,607,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,300,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,297,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,294,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,286,calcium_and_vit_d,sens_no_asthma,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,14,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,NA,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,NA,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,NA,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,16,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,17,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,17,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,15,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,891,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,890,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,884,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,874,calcium_and_vit_d,sens_no_asthma,cumdose,NA,NA,NA,NA,>1500 mg
+1,intermittent,2738,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,intermittent,3824,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,intermittent,3795,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,intermittent,3762,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,continuous,1205,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+2,continuous,99,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+3,continuous,97,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+4,continuous,92,calcium_and_vit_d,sens_all_ages,pattern,NA,NA,NA,NA,NA
+1,NA,248,calcium_and_vit_d,sens_all_ages,cumdays,few,NA,NA,NA,NA
+2,NA,201,calcium_and_vit_d,sens_all_ages,cumdays,few,NA,NA,NA,NA
+3,NA,172,calcium_and_vit_d,sens_all_ages,cumdays,few,NA,NA,NA,NA
+4,NA,131,calcium_and_vit_d,sens_all_ages,cumdays,few,NA,NA,NA,NA
+1,NA,3695,calcium_and_vit_d,sens_all_ages,cumdays,many,NA,NA,NA,NA
+2,NA,3722,calcium_and_vit_d,sens_all_ages,cumdays,many,NA,NA,NA,NA
+3,NA,3720,calcium_and_vit_d,sens_all_ages,cumdays,many,NA,NA,NA,NA
+4,NA,3723,calcium_and_vit_d,sens_all_ages,cumdays,many,NA,NA,NA,NA
+1,NA,1037,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+2,NA,1033,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+3,NA,1029,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+4,NA,1020,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,intermittent,NA,NA,NA
+1,NA,2906,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+2,NA,2890,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+3,NA,2863,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+4,NA,2834,calcium_and_vit_d,sens_all_ages,pattern_rt_gap,NA,continuous,NA,NA,NA
+1,NA,3921,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+2,NA,2734,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+3,NA,3797,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+4,NA,3760,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,intermittent,NA,NA
+1,NA,22,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+2,NA,1189,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+3,NA,95,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+4,NA,94,calcium_and_vit_d,sens_all_ages,pattern_lagged,NA,NA,continuous,NA,NA
+1,NA,2738,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+2,NA,2734,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+3,NA,2714,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+4,NA,2694,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,intermittent,NA
+1,NA,1205,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+2,NA,1189,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+3,NA,1178,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+4,NA,1160,calcium_and_vit_d,sens_all_ages,pattern_itt,NA,NA,NA,continuous,NA
+1,NA,161,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+2,NA,123,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+3,NA,98,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+4,NA,72,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,450 to 899 mg
+1,NA,194,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+2,NA,184,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+3,NA,171,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+4,NA,159,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,900 to 1500 mg
+1,NA,3588,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+2,NA,3616,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+3,NA,3623,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
+4,NA,3623,calcium_and_vit_d,sens_all_ages,cumdose,NA,NA,NA,NA,>1500 mg
